@@ -35,6 +35,8 @@ import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.Utils;
 
+import com.android.settings.custom.preference.CustomSeekBarPreference;
+
 import com.android.internal.util.custom.CustomUtils;
 
 public class ButtonSettings extends SettingsPreferenceFragment implements
@@ -43,10 +45,18 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
 
     private static final String POWER_CATEGORY = "power_category";
     private static final String TORCH_POWER_BUTTON_GESTURE = "torch_power_button_gesture";
+    //Keys
+    private static final String KEY_BUTTON_BRIGHTNESS = "button_brightness";
+    private static final String KEY_BACKLIGHT_TIMEOUT = "backlight_timeout";
+
+    // category keys
+    private static final String CATEGORY_HWKEY = "hardware_keys";
 
     private ContentResolver resolver;
 
     private ListPreference mTorchPowerButton;
+    private ListPreference mBacklightTimeout;
+    private CustomSeekBarPreference mButtonBrightness;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -69,6 +79,26 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
             mTorchPowerButton.setValue(Integer.toString(mTorchPowerButtonValue));
             mTorchPowerButton.setSummary(mTorchPowerButton.getEntry());
             mTorchPowerButton.setOnPreferenceChangeListener(this);
+        }
+
+        mBacklightTimeout =
+                (ListPreference) findPreference(KEY_BACKLIGHT_TIMEOUT);
+        mButtonBrightness =
+                (CustomSeekBarPreference) findPreference(KEY_BUTTON_BRIGHTNESS);
+
+        if (mBacklightTimeout != null) {
+            mBacklightTimeout.setOnPreferenceChangeListener(this);
+            int BacklightTimeout = Settings.System.getInt(getContentResolver(),
+                    Settings.System.BUTTON_BACKLIGHT_TIMEOUT, 5000);
+            mBacklightTimeout.setValue(Integer.toString(BacklightTimeout));
+            mBacklightTimeout.setSummary(mBacklightTimeout.getEntry());
+        }
+
+        if (mButtonBrightness != null) {
+            int ButtonBrightness = Settings.System.getInt(getContentResolver(),
+                    Settings.System.BUTTON_BRIGHTNESS, 255);
+            mButtonBrightness.setValue(ButtonBrightness / 1);
+            mButtonBrightness.setOnPreferenceChangeListener(this);
         }
     }
 
@@ -101,6 +131,21 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
                 Settings.Secure.putInt(getActivity().getContentResolver(), Settings.Secure.CAMERA_DOUBLE_TAP_POWER_GESTURE_DISABLED,
                         1);
             }
+            return true;
+        } else if (preference == mBacklightTimeout) {
+            String BacklightTimeout = (String) newValue;
+            int BacklightTimeoutValue = Integer.parseInt(BacklightTimeout);
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.BUTTON_BACKLIGHT_TIMEOUT, BacklightTimeoutValue);
+            int BacklightTimeoutIndex = mBacklightTimeout
+                    .findIndexOfValue(BacklightTimeout);
+            mBacklightTimeout
+                    .setSummary(mBacklightTimeout.getEntries()[BacklightTimeoutIndex]);
+            return true;
+        } else if (preference == mButtonBrightness) {
+            int value = (Integer) newValue;
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.BUTTON_BRIGHTNESS, value * 1);
             return true;
         }
         return false;

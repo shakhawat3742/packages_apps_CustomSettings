@@ -60,4 +60,8 @@
     <string name="torch_power_button_gesture_dt">Double tap</string>
     <string name="torch_power_button_gesture_lp">Long press</string>
 
+    <!-- Button touch -->
+    <string name="button_backlight_on_touch_only_title">Button touch</string>
+    <string name="button_backlight_on_touch_only_summary">Enable backlight with timeout only on button touch</string>
+
 </resources>

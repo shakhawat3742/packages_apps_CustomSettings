@@ -49,6 +49,7 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
     private static final String KEY_BUTTON_BRIGHTNESS = "button_brightness";
     private static final String KEY_BACKLIGHT_TIMEOUT = "backlight_timeout";
     private static final String KEY_BUTTON_BRIGHTNESS_SW = "button_brightness_sw";
+    private static final String KEY_BUTTON_BACKLIGHT_ON_TOUCH = "button_backlight_on_touch_only";
 
     // category keys
     private static final String CATEGORY_HWKEY = "hardware_keys";
@@ -59,6 +60,7 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
     private ListPreference mBacklightTimeout;
     private CustomSeekBarPreference mButtonBrightness;
     private SwitchPreference mButtonBrightness_sw;
+    private SwitchPreference mButtonBacklightOnTouch;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -70,6 +72,8 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
         final PreferenceScreen prefScreen = getPreferenceScreen();
         final boolean variableBrightness = getResources().getBoolean(
                 com.android.internal.R.bool.config_deviceHasVariableButtonBrightness);
+        final boolean hasButtonBacklight = getResources().getBoolean(
+                com.android.internal.R.bool.config_deviceHasButtonBacklight);
 
         if (!CustomUtils.deviceHasFlashlight(getContext())) {
             Preference toRemove = prefScreen.findPreference(POWER_CATEGORY);
@@ -85,12 +89,19 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
             mTorchPowerButton.setOnPreferenceChangeListener(this);
         }
 
+        final PreferenceCategory hwkeyCat = (PreferenceCategory) prefScreen.findPreference(CATEGORY_HWKEY);
+
         mBacklightTimeout =
                 (ListPreference) findPreference(KEY_BACKLIGHT_TIMEOUT);
         mButtonBrightness =
                 (CustomSeekBarPreference) findPreference(KEY_BUTTON_BRIGHTNESS);
         mButtonBrightness_sw =
                 (SwitchPreference) findPreference(KEY_BUTTON_BRIGHTNESS_SW);
+
+        mButtonBacklightOnTouch =
+                (SwitchPreference) findPreference(KEY_BUTTON_BACKLIGHT_ON_TOUCH);
+
+             if (hasButtonBacklight) {
 
         if (mBacklightTimeout != null) {
             mBacklightTimeout.setOnPreferenceChangeListener(this);
@@ -116,6 +127,12 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
                     mButtonBrightness_sw.setOnPreferenceChangeListener(this);
                 }
         }
+            } else {
+                hwkeyCat.removePreference(mBacklightTimeout);
+                hwkeyCat.removePreference(mButtonBrightness);
+                hwkeyCat.removePreference(mButtonBrightness_sw);
+                hwkeyCat.removePreference(mButtonBacklightOnTouch);
+            }
     }
 
     @Override

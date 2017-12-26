@@ -31,6 +31,9 @@
     <!-- Volume category -->
     <string name="volume_category">Volume Rocker</string>
 
+    <!-- Volume category -->
+    <string name="power_category">Power</string>
+
     <!-- Volume button orientation based on current rotation -->
     <string name="swap_volume_buttons_title">Swap volume rocker orientation</string>
     <string name="swap_volume_buttons_summary">Adjust the rocker orientation based on current rotation</string>
@@ -50,4 +53,11 @@
     <!-- The volume key answer -->
     <string name="volume_answer_call_title">Volume keys answer</string>
     <string name="volume_answer_call_summary">Answer the call when volume keys pressed</string>
+
+    <!-- Torch Power button gestures -->
+    <string name="torch_power_button_gesture_title">Screen off power button torch</string>
+    <string name="torch_power_button_gesture_none">Disabled</string>
+    <string name="torch_power_button_gesture_dt">Double tap</string>
+    <string name="torch_power_button_gesture_lp">Long press</string>
+
 </resources>

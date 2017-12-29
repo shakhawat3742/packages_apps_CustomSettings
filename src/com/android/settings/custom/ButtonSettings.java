@@ -70,10 +70,6 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
 
         resolver = getActivity().getContentResolver();
         final PreferenceScreen prefScreen = getPreferenceScreen();
-        final boolean variableBrightness = getResources().getBoolean(
-                com.android.internal.R.bool.config_deviceHasVariableButtonBrightness);
-        final boolean hasButtonBacklight = getResources().getBoolean(
-                com.android.internal.R.bool.config_deviceHasButtonBacklight);
 
         if (!CustomUtils.deviceHasFlashlight(getContext())) {
             Preference toRemove = prefScreen.findPreference(POWER_CATEGORY);
@@ -89,29 +85,27 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
             mTorchPowerButton.setOnPreferenceChangeListener(this);
         }
 
+        final boolean variableBrightness = getResources().getBoolean(
+                com.android.internal.R.bool.config_deviceHasVariableButtonBrightness);
+        final boolean hasButtonBacklight = getResources().getBoolean(
+                com.android.internal.R.bool.config_deviceHasButtonBacklight);
+
         final PreferenceCategory hwkeyCat = (PreferenceCategory) prefScreen.findPreference(CATEGORY_HWKEY);
+        mBacklightTimeout = (ListPreference) findPreference(KEY_BACKLIGHT_TIMEOUT);
+        mButtonBrightness = (CustomSeekBarPreference) findPreference(KEY_BUTTON_BRIGHTNESS);
+        mButtonBrightness_sw = (SwitchPreference) findPreference(KEY_BUTTON_BRIGHTNESS_SW);
+        mButtonBacklightOnTouch = (SwitchPreference) findPreference(KEY_BUTTON_BACKLIGHT_ON_TOUCH);
 
-        mBacklightTimeout =
-                (ListPreference) findPreference(KEY_BACKLIGHT_TIMEOUT);
-        mButtonBrightness =
-                (CustomSeekBarPreference) findPreference(KEY_BUTTON_BRIGHTNESS);
-        mButtonBrightness_sw =
-                (SwitchPreference) findPreference(KEY_BUTTON_BRIGHTNESS_SW);
+        if (hasButtonBacklight) {
+            if (mBacklightTimeout != null){
+                mBacklightTimeout.setOnPreferenceChangeListener(this);
+                int BacklightTimeout = Settings.System.getInt(getContentResolver(),
+                        Settings.System.BUTTON_BACKLIGHT_TIMEOUT, 5000);
+                mBacklightTimeout.setValue(Integer.toString(BacklightTimeout));
+                mBacklightTimeout.setSummary(mBacklightTimeout.getEntry());
+            }
 
-        mButtonBacklightOnTouch =
-                (SwitchPreference) findPreference(KEY_BUTTON_BACKLIGHT_ON_TOUCH);
-
-             if (hasButtonBacklight) {
-
-        if (mBacklightTimeout != null) {
-            mBacklightTimeout.setOnPreferenceChangeListener(this);
-            int BacklightTimeout = Settings.System.getInt(getContentResolver(),
-                    Settings.System.BUTTON_BACKLIGHT_TIMEOUT, 5000);
-            mBacklightTimeout.setValue(Integer.toString(BacklightTimeout));
-            mBacklightTimeout.setSummary(mBacklightTimeout.getEntry());
-        }
-
-            if (variableBrightness) {
+            if (variableBrightness){
                 prefScreen.removePreference(mButtonBrightness_sw);
                 if (mButtonBrightness != null) {
                     int ButtonBrightness = Settings.System.getInt(getContentResolver(),
@@ -119,35 +113,25 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
                     mButtonBrightness.setValue(ButtonBrightness / 1);
                     mButtonBrightness.setOnPreferenceChangeListener(this);
                 }
-            } else {
+            }else{
                 prefScreen.removePreference(mButtonBrightness);
                 if (mButtonBrightness_sw != null) {
                     mButtonBrightness_sw.setChecked((Settings.System.getInt(getContentResolver(),
                             Settings.System.BUTTON_BRIGHTNESS, 1) == 1));
                     mButtonBrightness_sw.setOnPreferenceChangeListener(this);
                 }
-        }
-            } else {
-                hwkeyCat.removePreference(mBacklightTimeout);
-                hwkeyCat.removePreference(mButtonBrightness);
-                hwkeyCat.removePreference(mButtonBrightness_sw);
-                hwkeyCat.removePreference(mButtonBacklightOnTouch);
             }
+        }else{
+            hwkeyCat.removePreference(mBacklightTimeout);
+            hwkeyCat.removePreference(mButtonBrightness);
+            hwkeyCat.removePreference(mButtonBrightness_sw);
+            hwkeyCat.removePreference(mButtonBacklightOnTouch);
+        }
     }
 
     @Override
     public int getMetricsCategory() {
         return MetricsEvent.CUSTOM_SETTINGS;
-    }
-
-    @Override
-    public void onResume() {
-        super.onResume();
-    }
-
-    @Override
-    public void onPause() {
-        super.onPause();
     }
 
     @Override

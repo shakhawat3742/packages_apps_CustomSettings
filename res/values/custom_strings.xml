@@ -34,6 +34,9 @@
     <!-- Volume category -->
     <string name="power_category">Power</string>
 
+    <!-- Volume category -->
+    <string name="navbar_category">Navigation bar</string>
+
     <!-- Volume button orientation based on current rotation -->
     <string name="swap_volume_buttons_title">Swap volume rocker orientation</string>
     <string name="swap_volume_buttons_summary">Adjust the rocker orientation based on current rotation</string>
@@ -82,5 +85,8 @@
 
     <!-- Enable keys backlight-->
     <string name="button_brightness_sw_title">Enable backlight</string>
+
+    <!-- Navbar tuner -->
+    <string name="navbar_tuner_title">Manage navigation bar</string>
 
 </resources>

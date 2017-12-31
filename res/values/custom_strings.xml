@@ -126,7 +126,6 @@
     <string name="notification_light_default_value">Default</string>
     <string name="notification_light_missed_call_title">Missed call</string>
     <string name="notification_light_voicemail_title">Voicemail</string>
-    <string name="notification_light_brightness" translatable="false">@string/brightness</string>
     <string name="notification_light_screen_on">Lights with screen on</string>
     <string name="notification_light_zen_mode">Lights in Do Not Disturb mode</string>
     <string name="notification_light_use_multiple_leds">Multiple LEDs</string>
@@ -148,7 +147,6 @@
     <string name="battery_light_medium_color_title">Charging</string>
     <string name="battery_light_full_color_title">Charged (90%)</string>
     <string name="battery_light_really_full_color_title">Charged (100%)</string>
-    <string name="edit_battery_settings">Edit battery settings</string>
     <string name="led_color_green">Green</string>
     <string name="led_color_red">Red</string>
     <string name="led_color_blue">Blue</string>

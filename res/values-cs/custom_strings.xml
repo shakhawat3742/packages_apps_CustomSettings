@@ -17,116 +17,118 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Color Picker -->
-  <string name="dialog_color_picker">Color Picker</string>
-  <string name="press_color_to_apply">Press on color below to apply</string>
+  <string name="dialog_color_picker">Výběr barvy</string>
+  <string name="press_color_to_apply">Pro použití klepněte na barvu umístěnou níže</string>
   <string name="arrow_right">→</string>
   <string name="arrow_down">↓</string>
   <string name="hex">Hex:</string>
   <string name="hex_hint">#ff000000</string>
-  <string name="set">Set</string>
-  <string name="color_default">Default</string>
+  <string name="set">Nastavit</string>
+  <string name="color_default">Výchozí</string>
   <!-- Buttons -->
-  <string name="button_settings">Buttons</string>
+  <string name="button_settings">Tlačítka</string>
   <!-- Volume category -->
-  <string name="volume_category">Volume Rocker</string>
+  <string name="volume_category">Tlačítka hlasitosti</string>
+  <!-- Power category -->
+  <string name="power_category">Napájení</string>
   <!-- Volume category -->
-  <string name="power_category">Power</string>
-  <!-- Volume category -->
-  <string name="navbar_category">Navigation bar</string>
+  <string name="navbar_category">Navigační lišta</string>
   <!-- Volume button orientation based on current rotation -->
-  <string name="swap_volume_buttons_title">Swap volume rocker orientation</string>
-  <string name="swap_volume_buttons_summary">Adjust the rocker orientation based on current rotation</string>
+  <string name="swap_volume_buttons_title">Prohodit orientaci tlačítek hlasitosti</string>
+  <string name="swap_volume_buttons_summary">Nastavte orientaci tlačítek hlasitosti podle aktuálního otočení</string>
   <!-- Volume key controls media stream -->
-  <string name="volume_keys_control_media_stream_title">Volume keys control media volume</string>
-  <string name="volume_keys_control_media_stream_summary">Force volume keys to control media stream</string>
+  <string name="volume_keys_control_media_stream_title">Tlačítka hlasitosti ovládají hlasitost médií</string>
+  <string name="volume_keys_control_media_stream_summary">Pomocí tlačítek hlasitosti ovládat streamování médií</string>
   <!-- Volume rocker music control -->
-  <string name="volume_rocker_music_controls_title">Playback control</string>
-  <string name="volume_rocker_music_controls_summary">When the screen is off, long-pressing the volume keys will seek music tracks</string>
+  <string name="volume_rocker_music_controls_title">Ovládání přehrávání</string>
+  <string name="volume_rocker_music_controls_summary">Když je obrazovka vypnutá, dlouhý stisk tlačítka hlasitosti posune na další skladbu</string>
   <!-- Volume rocker wake -->
-  <string name="volume_rocker_wake_title">Volume rocker wake</string>
-  <string name="volume_rocker_wake_summary">Pressing the volume keys will wake your device</string>
+  <string name="volume_rocker_wake_title">Probudit tlačítky hlasitosti</string>
+  <string name="volume_rocker_wake_summary">Stisknutím tlačítka hlasitosti se probudí vaše zařízení</string>
   <!-- The volume key answer -->
-  <string name="volume_answer_call_title">Volume keys answer</string>
-  <string name="volume_answer_call_summary">Answer the call when volume keys pressed</string>
+  <string name="volume_answer_call_title">Přijmout hovor tlačítky hlasitosti</string>
+  <string name="volume_answer_call_summary">Přijetí hovoru při stisknutí tlačítek hlasitosti</string>
   <!-- Torch Power button gestures -->
-  <string name="torch_power_button_gesture_title">Screen off power button torch</string>
-  <string name="torch_power_button_gesture_none">Disabled</string>
-  <string name="torch_power_button_gesture_dt">Double tap</string>
-  <string name="torch_power_button_gesture_lp">Long press</string>
+  <string name="torch_power_button_gesture_title">Svítilna při vypnuté obrazovce</string>
+  <string name="torch_power_button_gesture_none">Vypnuto</string>
+  <string name="torch_power_button_gesture_dt">Dvojité poklepání</string>
+  <string name="torch_power_button_gesture_lp">Dlouhý stisk</string>
   <!-- Hardware keys -->
-  <string name="hardware_keys_category">Hardware keys</string>
+  <string name="hardware_keys_category">Hardwarová tlačítka</string>
   <!-- Button touch -->
-  <string name="button_backlight_on_touch_only_title">Button touch</string>
-  <string name="button_backlight_on_touch_only_summary">Enable backlight with timeout only on button touch</string>
+  <string name="button_backlight_on_touch_only_title">Podsvícení tlačítek při dotyku</string>
+  <string name="button_backlight_on_touch_only_summary">Aktivujte podsvícení s časovým omezením pouze při stisknutí tlačítka</string>
   <!-- Buttons backlight timeout -->
-  <string name="backlight_timeout_title">Buttons backlight timeout</string>
-  <string name="backlight_timeout_on">Enabled always</string>
-  <string name="backlight_timeout_3s">3 sec</string>
-  <string name="backlight_timeout_default">5 sec (default)</string>
-  <string name="backlight_timeout_10s">10 sec</string>
-  <string name="backlight_timeout_15s">15 sec</string>
-  <string name="backlight_timeout_20s">20 sec</string>
-  <string name="backlight_timeout_30s">30 sec</string>
+  <string name="backlight_timeout_title">Časový limit podsvícení tlačítek</string>
+  <string name="backlight_timeout_on">Vždy povoleno</string>
+  <string name="backlight_timeout_3s">3 sekundy</string>
+  <string name="backlight_timeout_default">5 sekund (výchozí)</string>
+  <string name="backlight_timeout_10s">10 sekund</string>
+  <string name="backlight_timeout_15s">15 sekund</string>
+  <string name="backlight_timeout_20s">20 sekund</string>
+  <string name="backlight_timeout_30s">30 sekund</string>
   <!-- Enable keys backlight-->
-  <string name="button_brightness_title">Backlight</string>
+  <string name="button_brightness_title">Podsvícení</string>
   <!-- Enable keys backlight-->
-  <string name="button_brightness_sw_title">Enable backlight</string>
+  <string name="button_brightness_sw_title">Zapnout podsvícení</string>
   <!-- Navbar tuner -->
-  <string name="navbar_tuner_title">Manage navigation bar</string>
+  <string name="navbar_tuner_title">Správa navigačního panelu</string>
   <!-- Notification light dialogs -->
-  <string name="ok">Okay</string>
-  <string name="reset">Reset</string>
-  <string name="advanced">Advanced</string>
-  <string name="profiles_add">Add...</string>
-  <string name="edit_light_settings">Edit light settings</string>
-  <string name="pulse_speed_title">Pulse length and speed</string>
-  <string name="default_time">Normal</string>
-  <string name="custom_time">Custom</string>
-  <string name="dialog_choose_app">Select app</string>
-  <string name="dialog_delete_title">Delete</string>
-  <string name="dialog_delete_message">Remove selected item?</string>
+  <string name="ok">OK</string>
+  <string name="reset">Resetovat</string>
+  <string name="advanced">Rozšířené</string>
+  <string name="profiles_add">Přidat...</string>
+  <string name="edit_light_settings">Upravit nastavení LED diody</string>
+  <string name="pulse_speed_title">Délka impulsu a rychlost</string>
+  <string name="default_time">Normální</string>
+  <string name="custom_time">Vlastní</string>
+  <string name="dialog_choose_app">Vybrat aplikaci</string>
+  <string name="dialog_delete_title">Odstranit</string>
+  <string name="dialog_delete_message">Odstranit vybranou položku?</string>
   <!-- Values for the notification light pulse spinners -->
-  <string name="pulse_length_always_on">Always on</string>
-  <string name="pulse_length_very_short">Very short</string>
-  <string name="pulse_length_short">Short</string>
-  <string name="pulse_length_normal">Normal</string>
-  <string name="pulse_length_long">Long</string>
-  <string name="pulse_length_very_long">Very long</string>
-  <string name="pulse_speed_very_fast">Very fast</string>
-  <string name="pulse_speed_fast">Fast</string>
-  <string name="pulse_speed_normal">Normal</string>
-  <string name="pulse_speed_slow">Slow</string>
-  <string name="pulse_speed_very_slow">Very slow</string>
+  <string name="pulse_length_always_on">Vždy zapnuto</string>
+  <string name="pulse_length_very_short">Velmi krátce</string>
+  <string name="pulse_length_short">Krátce</string>
+  <string name="pulse_length_normal">Normální</string>
+  <string name="pulse_length_long">Dlouze</string>
+  <string name="pulse_length_very_long">Velmi dlouze</string>
+  <string name="pulse_speed_very_fast">Velmi rychle</string>
+  <string name="pulse_speed_fast">Rychle</string>
+  <string name="pulse_speed_normal">Normální</string>
+  <string name="pulse_speed_slow">Pomalu</string>
+  <string name="pulse_speed_very_slow">Velmi pomalu</string>
   <!-- Lights settings screen, notification light settings -->
-  <string name="notification_light_title">Notification light</string>
-  <string name="notification_light_title_summary">Enable pulsing notification LED</string>
-  <string name="notification_light_general_title">General</string>
-  <string name="notification_light_applist_title">Apps</string>
-  <string name="notification_light_phonelist_title">Phone</string>
-  <string name="notification_light_use_custom">Use custom values</string>
-  <string name="notification_light_use_custom_summary">Enable to set per app notification colors</string>
-  <string name="notification_light_default_value">Default</string>
-  <string name="notification_light_missed_call_title">Missed call</string>
-  <string name="notification_light_voicemail_title">Voicemail</string>
-  <string name="notification_light_screen_on">Lights with screen on</string>
-  <string name="notification_light_zen_mode">Lights in Do Not Disturb mode</string>
-  <string name="notification_light_use_multiple_leds">Multiple LEDs</string>
+  <string name="notification_light_title">LED oznámení</string>
+  <string name="notification_light_title_summary">Povolit pulzující oznámení LED</string>
+  <string name="notification_light_general_title">Hlavní</string>
+  <string name="notification_light_applist_title">Aplikace</string>
+  <string name="notification_light_phonelist_title">Telefon</string>
+  <string name="notification_light_use_custom">Použít vlastní hodnoty</string>
+  <string name="notification_light_use_custom_summary">Umožňuje nastavit barvy oznámení podle aplikace</string>
+  <string name="notification_light_default_value">Výchozí</string>
+  <string name="notification_light_missed_call_title">Zmeškaný hovor</string>
+  <string name="notification_light_voicemail_title">Hlasová zpráva</string>
+  <string name="notification_light_screen_on">Světelná signalizace při zapnuté obrazovce</string>
+  <string name="notification_light_zen_mode">Světelná signalizace v režimu „Nerušit“</string>
+  <string name="notification_light_use_multiple_leds">Více LED</string>
   <!-- Notification light settings -->
-  <string name="battery_light_settings">Battery light</string>
-  <string name="led_notification_title">Light settings</string>
-  <string name="led_notification_text">LED light enabled by settings</string>
-  <string name="notification_light_no_apps_summary">To add per app control, activate \'%1$s\' and press \'\u002b\' on the menu bar</string>
+  <string name="leds_category_title">Možnosti LED</string>
+  <string name="battery_light_settings">Světelná signalizace baterie</string>
+  <string name="led_notification_title">Nastavení LED</string>
+  <string name="led_notification_text">LED světlo povoleno v nastavení</string>
+  <string name="notification_light_no_apps_summary">Chcete-li přidat jeden ovládací prvek aplikace, aktivujte \'%1$s\' a stiskněte \'\u002b\' na panelu nabídek</string>
   <!-- Battery light settings  -->
-  <string name="batterylight_title">Battery LED settings</string>
-  <string name="battery_light_enable">Enable</string>
-  <string name="battery_low_pulse_title">Pulse if battery low</string>
-  <string name="battery_light_only_full_charge_title">Only light up when fully charged</string>
-  <string name="battery_light_list_title">Colors</string>
-  <string name="battery_light_low_color_title">Battery low</string>
-  <string name="battery_light_medium_color_title">Charging</string>
-  <string name="battery_light_full_color_title">Charged (90%)</string>
-  <string name="battery_light_really_full_color_title">Charged (100%)</string>
-  <string name="led_color_green">Green</string>
-  <string name="led_color_red">Red</string>
-  <string name="led_color_blue">Blue</string>
+  <string name="batterylight_title">Nastavení LED indikátoru baterie</string>
+  <string name="battery_light_enable">Povolit</string>
+  <string name="battery_low_pulse_title">Blikat, když je baterie vybitá</string>
+  <string name="battery_light_only_full_charge_title">Rozsvítit při úplném nabití</string>
+  <string name="battery_light_list_title">Barvy</string>
+  <string name="battery_light_low_color_title">Nízký stav baterie</string>
+  <string name="battery_light_medium_color_title">Nabíjení</string>
+  <string name="battery_light_full_color_title">Nabito (90%)</string>
+  <string name="battery_light_really_full_color_title">Nabito (100%)</string>
+  <string name="led_color_green">Zelená</string>
+  <string name="led_color_red">Červená</string>
+  <string name="led_color_blue">Modrá</string>
+  <!-- Power Menu -->
 </resources>

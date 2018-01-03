@@ -29,7 +29,7 @@
   <string name="button_settings">Botões</string>
   <!-- Volume category -->
   <string name="volume_category">Botões de volume</string>
-  <!-- Volume category -->
+  <!-- Power category -->
   <string name="power_category">Botão power</string>
   <!-- Volume category -->
   <string name="navbar_category">Barra de navegação</string>
@@ -112,6 +112,7 @@
   <string name="notification_light_zen_mode">Luzes no modo não perturbe</string>
   <string name="notification_light_use_multiple_leds">LEDs múltiplos</string>
   <!-- Notification light settings -->
+  <string name="leds_category_title">Opções de LED</string>
   <string name="battery_light_settings">Luz da bateria</string>
   <string name="led_notification_title">Configurações de brilho</string>
   <string name="led_notification_text">Luz de LED ativada nas configurações</string>
@@ -120,7 +121,7 @@
   <string name="batterylight_title">Configurações do LED da bateria</string>
   <string name="battery_light_enable">Habilitar</string>
   <string name="battery_low_pulse_title">Pulsar se a bateria estiver fraca</string>
-  <string name="battery_light_only_full_charge_title">Habilitar apenas quando carregado (100%)</string>
+  <string name="battery_light_only_full_charge_title">Habilitar apenas quando totalmente carregado</string>
   <string name="battery_light_list_title">Cores</string>
   <string name="battery_light_low_color_title">Bateria fraca</string>
   <string name="battery_light_medium_color_title">Carregando</string>
@@ -129,4 +130,14 @@
   <string name="led_color_green">Verde</string>
   <string name="led_color_red">Vermelho</string>
   <string name="led_color_blue">Azul</string>
+  <!-- Power Menu -->
+  <string name="powermenu_manage">Gerenciar o menu de energia</string>
+  <string name="powermenu_reboot_title">Reiniciar</string>
+  <string name="powermenu_advanced_reboot_title">Reinicialização avançada</string>
+  <string name="powermenu_advanced_reboot_summary">Habilitar o menu de reinicialização avançado para usar opções como: reiniciar a interface do sistema, modo recuperação, bootloader ou reiniciar rapidamente.</string>
+  <string name="powermenu_screenshot_title">Capturar tela</string>
+  <string name="powermenu_airplane_title">Modo avião</string>
+  <string name="powermenu_category_other">Outras opções</string>
+  <string name="powermenu_lockscreen_title">Mostrar na tela de bloqueio</string>
+  <string name="powermenu_lockscreen_summary">Mostrar o menu de energia na tela de bloqueio</string>
 </resources>

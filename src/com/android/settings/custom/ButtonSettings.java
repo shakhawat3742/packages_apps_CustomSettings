@@ -54,7 +54,7 @@ public class ButtonSettings extends ActionFragment implements
     private static final String KEY_BACKLIGHT_TIMEOUT = "backlight_timeout";
     private static final String KEY_BUTTON_BRIGHTNESS_SW = "button_brightness_sw";
     private static final String KEY_BUTTON_BACKLIGHT_ON_TOUCH = "button_backlight_on_touch_only";
-    private static final String HWKEY_DISABLE = "hardware_keys_disable";
+    private static final String HWKEY_ENABLE = "hardware_keys_enable";
 
     // category keys
     private static final String CATEGORY_HWKEY = "hardware_keys";
@@ -81,7 +81,7 @@ public class ButtonSettings extends ActionFragment implements
     private CustomSeekBarPreference mButtonBrightness;
     private SwitchPreference mButtonBrightness_sw;
     private SwitchPreference mButtonBacklightOnTouch;
-    private SwitchPreference mHwKeyDisable;
+    private SwitchPreference mHwKeyEnable;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -117,7 +117,7 @@ public class ButtonSettings extends ActionFragment implements
         mButtonBrightness = (CustomSeekBarPreference) findPreference(KEY_BUTTON_BRIGHTNESS);
         mButtonBrightness_sw = (SwitchPreference) findPreference(KEY_BUTTON_BRIGHTNESS_SW);
         mButtonBacklightOnTouch = (SwitchPreference) findPreference(KEY_BUTTON_BACKLIGHT_ON_TOUCH);
-        mHwKeyDisable = (SwitchPreference) findPreference(HWKEY_DISABLE);
+        mHwKeyEnable = (SwitchPreference) findPreference(HWKEY_ENABLE);
 
         int keysDisabled = 0;
 
@@ -127,8 +127,8 @@ public class ButtonSettings extends ActionFragment implements
             keysDisabled = Settings.Secure.getIntForUser(getContentResolver(),
                     Settings.Secure.HARDWARE_KEYS_DISABLE, 0,
                     UserHandle.USER_CURRENT);
-            mHwKeyDisable.setChecked(keysDisabled != 0);
-            mHwKeyDisable.setOnPreferenceChangeListener(this);
+            mHwKeyEnable.setChecked(keysDisabled == 0);
+            mHwKeyEnable.setOnPreferenceChangeListener(this);
             if (hasButtonBacklight) {
                 if (mBacklightTimeout != null){
                     mBacklightTimeout.setOnPreferenceChangeListener(this);
@@ -263,11 +263,11 @@ public class ButtonSettings extends ActionFragment implements
             Settings.System.putInt(getActivity().getContentResolver(),
                     Settings.System.BUTTON_BRIGHTNESS, value ? 1 : 0);
             return true;
-        } else if (preference == mHwKeyDisable) {
+        } else if (preference == mHwKeyEnable) {
             boolean value = (Boolean) newValue;
             Settings.Secure.putInt(getContentResolver(), Settings.Secure.HARDWARE_KEYS_DISABLE,
-                    value ? 1 : 0);
-            setActionPreferencesEnabled(!value);
+                    value ? 0 : 1);
+            setActionPreferencesEnabled(value);
             return true;
         }
         return false;

@@ -58,7 +58,7 @@
     <string name="volume_answer_call_summary">Answer the call when volume keys pressed</string>
 
     <!-- Torch Power button gestures -->
-    <string name="torch_power_button_gesture_title">Screen off power button torch</string>
+    <string name="torch_power_button_gesture_title">Flashlight when screen is off</string>
     <string name="torch_power_button_gesture_none">Disabled</string>
     <string name="torch_power_button_gesture_dt">Double tap</string>
     <string name="torch_power_button_gesture_lp">Long press</string>

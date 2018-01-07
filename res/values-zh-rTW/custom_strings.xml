@@ -27,7 +27,6 @@
   <!-- Volume rocker wake -->
   <!-- The volume key answer -->
   <!-- Torch Power button gestures -->
-  <!-- Hardware keys -->
   <!-- Button touch -->
   <!-- Buttons backlight timeout -->
   <!-- Enable keys backlight-->
@@ -39,4 +38,5 @@
   <!-- Notification light settings -->
   <!-- Battery light settings  -->
   <!-- Power Menu -->
+  <!-- HW Keys customization -->
 </resources>

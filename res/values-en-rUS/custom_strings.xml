@@ -49,12 +49,9 @@
   <string name="volume_answer_call_title">Volume keys answer</string>
   <string name="volume_answer_call_summary">Answer the call when volume keys pressed</string>
   <!-- Torch Power button gestures -->
-  <string name="torch_power_button_gesture_title">Screen off power button torch</string>
   <string name="torch_power_button_gesture_none">Disabled</string>
   <string name="torch_power_button_gesture_dt">Double tap</string>
   <string name="torch_power_button_gesture_lp">Long press</string>
-  <!-- Hardware keys -->
-  <string name="hardware_keys_category">Hardware keys</string>
   <!-- Button touch -->
   <string name="button_backlight_on_touch_only_title">Button touch</string>
   <string name="button_backlight_on_touch_only_summary">Enable backlight with timeout only on button touch</string>
@@ -130,4 +127,6 @@
   <string name="led_color_red">Red</string>
   <string name="led_color_blue">Blue</string>
   <!-- Power Menu -->
+  <!-- HW Keys customization -->
+  <string name="hardware_keys_category">Hardware keys</string>
 </resources>

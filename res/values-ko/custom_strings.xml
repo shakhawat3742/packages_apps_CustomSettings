@@ -17,6 +17,10 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Color Picker -->
+  <string name="arrow_right">→</string>
+  <string name="arrow_down">↓</string>
+  <string name="hex">16진수:</string>
+  <string name="hex_hint">#ff000000</string>
   <!-- Buttons -->
   <!-- Volume category -->
   <!-- Power category -->
@@ -27,7 +31,6 @@
   <!-- Volume rocker wake -->
   <!-- The volume key answer -->
   <!-- Torch Power button gestures -->
-  <!-- Hardware keys -->
   <!-- Button touch -->
   <!-- Buttons backlight timeout -->
   <!-- Enable keys backlight-->
@@ -39,4 +42,5 @@
   <!-- Notification light settings -->
   <!-- Battery light settings  -->
   <!-- Power Menu -->
+  <!-- HW Keys customization -->
 </resources>

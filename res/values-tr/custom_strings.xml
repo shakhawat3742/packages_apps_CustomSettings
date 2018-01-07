@@ -49,12 +49,9 @@
   <string name="volume_answer_call_title">Ses tuşu ile cevapla</string>
   <string name="volume_answer_call_summary">Ses seviyesi tuşlarına basıldığında aramaya cevap ver</string>
   <!-- Torch Power button gestures -->
-  <string name="torch_power_button_gesture_title">Ekran kapalı iken güç tuşu ile feneri açma</string>
   <string name="torch_power_button_gesture_none">Devre dışı</string>
   <string name="torch_power_button_gesture_dt">Çift tıklama</string>
   <string name="torch_power_button_gesture_lp">Uzun basma</string>
-  <!-- Hardware keys -->
-  <string name="hardware_keys_category">Fiziksel Tuşlar</string>
   <!-- Button touch -->
   <string name="button_backlight_on_touch_only_title">Dokunmatik tuş</string>
   <string name="button_backlight_on_touch_only_summary">Yalnızca tuşa dokunulduğunda zaman aşımlı arka ışığı etkinkeştir</string>
@@ -131,4 +128,6 @@
   <string name="led_color_red">Kırmızı</string>
   <string name="led_color_blue">Mavi</string>
   <!-- Power Menu -->
+  <!-- HW Keys customization -->
+  <string name="hardware_keys_category">Fiziksel Tuşlar</string>
 </resources>

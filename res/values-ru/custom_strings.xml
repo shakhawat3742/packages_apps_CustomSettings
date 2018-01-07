@@ -17,26 +17,126 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Color Picker -->
+  <string name="dialog_color_picker">Палитра</string>
+  <string name="press_color_to_apply">Нажмите на цвет для применения</string>
+  <string name="arrow_right">→</string>
+  <string name="arrow_down">↓</string>
+  <string name="hex">Hex:</string>
+  <string name="hex_hint">#ff000000</string>
+  <string name="set">Установить</string>
+  <string name="color_default">По умолчанию</string>
   <!-- Buttons -->
+  <string name="button_settings">Кнопки</string>
   <!-- Volume category -->
+  <string name="volume_category">Регулировка громкости</string>
   <!-- Power category -->
+  <string name="power_category">Питание</string>
   <!-- Volume category -->
+  <string name="navbar_category">Панель навигации</string>
   <!-- Volume button orientation based on current rotation -->
+  <string name="swap_volume_buttons_title">Поменять местами кнопки громкости</string>
+  <string name="swap_volume_buttons_summary">Менять назначение кнопок регулировки громкости согласно ориентации экрана</string>
   <!-- Volume key controls media stream -->
+  <string name="volume_keys_control_media_stream_title">Клавиши громкости регулируют уровень громкости мультимедиа</string>
+  <string name="volume_keys_control_media_stream_summary">Принудительно использовать кнопки громкости для регулировки громкости медиа</string>
   <!-- Volume rocker music control -->
+  <string name="volume_rocker_music_controls_title">Управление воспроизведением</string>
+  <string name="volume_rocker_music_controls_summary">Когда экран выключен, долгое нажатие кнопок громкости переключает музыкальные треки</string>
   <!-- Volume rocker wake -->
+  <string name="volume_rocker_wake_title">Пробуждение кнопками громкости</string>
+  <string name="volume_rocker_wake_summary">Использовать клавиши громкости, для включения экрана</string>
   <!-- The volume key answer -->
+  <string name="volume_answer_call_title">Ответ на звонок кнопками увеличения громкости</string>
+  <string name="volume_answer_call_summary">Ответ на звонок, когда нажата кнопка громкости</string>
   <!-- Torch Power button gestures -->
-  <!-- Hardware keys -->
+  <string name="torch_power_button_gesture_none">Выключена</string>
+  <string name="torch_power_button_gesture_dt">Двойное касание</string>
+  <string name="torch_power_button_gesture_lp">Длительное нажатие</string>
   <!-- Button touch -->
+  <string name="button_backlight_on_touch_only_title">Подсветка при касании</string>
+  <string name="button_backlight_on_touch_only_summary">Включать подсветку клавиш только при касании</string>
   <!-- Buttons backlight timeout -->
+  <string name="backlight_timeout_title">Длительность подсветки</string>
+  <string name="backlight_timeout_on">Включена всегда</string>
+  <string name="backlight_timeout_3s">3 сек.</string>
+  <string name="backlight_timeout_default">5 сек. (по умолчанию)</string>
+  <string name="backlight_timeout_10s">10 сек.</string>
+  <string name="backlight_timeout_15s">15 сек.</string>
+  <string name="backlight_timeout_20s">20 сек.</string>
+  <string name="backlight_timeout_30s">30 сек.</string>
   <!-- Enable keys backlight-->
+  <string name="button_brightness_title">Подсветка</string>
   <!-- Enable keys backlight-->
+  <string name="button_brightness_sw_title">Подсветка включена</string>
   <!-- Navbar tuner -->
+  <string name="navbar_tuner_title">Управление панелью навигации</string>
   <!-- Notification light dialogs -->
+  <string name="ok">Ок</string>
+  <string name="reset">Сбросить</string>
+  <string name="advanced">Дополнительно</string>
+  <string name="profiles_add">Добавить...</string>
+  <string name="edit_light_settings">Изменение настроек индикатора</string>
+  <string name="pulse_speed_title">Длительность и скорость мигания</string>
+  <string name="default_time">Нормальные</string>
+  <string name="custom_time">Настроить</string>
+  <string name="dialog_choose_app">Выберите приложение</string>
+  <string name="dialog_delete_title">Удалить</string>
+  <string name="dialog_delete_message">Удалить выбранные элементы?</string>
   <!-- Values for the notification light pulse spinners -->
+  <string name="pulse_length_always_on">Всегда включен</string>
+  <string name="pulse_length_very_short">Очень коротко</string>
+  <string name="pulse_length_short">Коротко</string>
+  <string name="pulse_length_normal">Средне</string>
+  <string name="pulse_length_long">Долго</string>
+  <string name="pulse_length_very_long">Очень долго</string>
+  <string name="pulse_speed_very_fast">Очень быстро</string>
+  <string name="pulse_speed_fast">Быстро</string>
+  <string name="pulse_speed_normal">Нормально</string>
+  <string name="pulse_speed_slow">Медленный</string>
+  <string name="pulse_speed_very_slow">Очень медленно</string>
   <!-- Lights settings screen, notification light settings -->
+  <string name="notification_light_title">Индикация уведомлений</string>
+  <string name="notification_light_title_summary">Включить пульсирующий индикатор уведомлений</string>
+  <string name="notification_light_general_title">Основные</string>
+  <string name="notification_light_applist_title">Приложения</string>
+  <string name="notification_light_phonelist_title">Телефон</string>
+  <string name="notification_light_use_custom">Использовать пользовательские значения</string>
+  <string name="notification_light_use_custom_summary">Включить, чтобы установить цвета уведомлений каждому приложению отдельно</string>
+  <string name="notification_light_default_value">По умолчанию</string>
+  <string name="notification_light_missed_call_title">Пропущенный вызов</string>
+  <string name="notification_light_voicemail_title">Голосовая почта</string>
+  <string name="notification_light_screen_on">Индикация при вкл. экране</string>
+  <string name="notification_light_zen_mode">Индикация в режиме «Не беспокоить»</string>
+  <string name="notification_light_use_multiple_leds">Несколько индикаторов</string>
   <!-- Notification light settings -->
+  <string name="leds_category_title">Опции индикатора</string>
+  <string name="battery_light_settings">Индикатор батареи</string>
+  <string name="led_notification_title">Настройки индикации</string>
+  <string name="led_notification_text">Включить настройки индикации</string>
+  <string name="notification_light_no_apps_summary">Чтобы разрешить управление приложениями, включите «%1$s» и нажмите «\u002b» в строке меню</string>
   <!-- Battery light settings  -->
+  <string name="batterylight_title">Настройки индикации батареи</string>
+  <string name="battery_light_enable">Включить</string>
+  <string name="battery_low_pulse_title">Мигать при низком уровне заряда батареи</string>
+  <string name="battery_light_only_full_charge_title">Гореть при полной зарядке</string>
+  <string name="battery_light_list_title">Цвета</string>
+  <string name="battery_light_low_color_title">Батарея разряжена</string>
+  <string name="battery_light_medium_color_title">Зарядка</string>
+  <string name="battery_light_full_color_title">Заряжено (90%)</string>
+  <string name="battery_light_really_full_color_title">Батарея заряжена (100%)</string>
+  <string name="led_color_green">Зелёный</string>
+  <string name="led_color_red">Красный</string>
+  <string name="led_color_blue">Синий</string>
   <!-- Power Menu -->
+  <string name="powermenu_manage">Настройки меню питания</string>
+  <string name="powermenu_reboot_title">Перезагрузка</string>
+  <string name="powermenu_advanced_reboot_title">Варианты перезагрузки</string>
+  <string name="powermenu_advanced_reboot_summary">Включить расширенную перезагрузку для перезагрузки в режим восстановления, загрузчик, перезагрузки SystemUI или быстрой перезагрузки</string>
+  <string name="powermenu_screenshot_title">Скриншот</string>
+  <string name="powermenu_airplane_title">Режим полёта</string>
+  <string name="powermenu_category_other">Прочее</string>
+  <string name="powermenu_lockscreen_title">Видимость на экране блокировки</string>
+  <string name="powermenu_lockscreen_summary">Включите, чтобы показать меню питания на экране блокировки</string>
+  <!-- HW Keys customization -->
+  <string name="hardware_keys_category">Аппаратные кнопки</string>
 </resources>

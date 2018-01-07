@@ -18,6 +18,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Color Picker -->
   <string name="dialog_color_picker">Farbauswahl</string>
+  <string name="press_color_to_apply">Drücke die zu benutzende Farbe</string>
   <string name="arrow_right">→</string>
   <string name="arrow_down">↓</string>
   <string name="hex">Hex:</string>
@@ -46,12 +47,11 @@
   <string name="volume_rocker_wake_summary">Drücken der Lautstärketasten weckt Ihr Gerät</string>
   <!-- The volume key answer -->
   <string name="volume_answer_call_title">Antworten mit Lautstärketaste</string>
+  <string name="volume_answer_call_summary">Anruf mit den Lautstärketasten annehmen</string>
   <!-- Torch Power button gestures -->
   <string name="torch_power_button_gesture_none">Deaktiviert</string>
   <string name="torch_power_button_gesture_dt">Doppeltes Tippen</string>
   <string name="torch_power_button_gesture_lp">Lange drücken</string>
-  <!-- Hardware keys -->
-  <string name="hardware_keys_category">Hardware-Tasten</string>
   <!-- Button touch -->
   <string name="button_backlight_on_touch_only_title">Tastendruck</string>
   <string name="button_backlight_on_touch_only_summary">Hintergrundbeleuchtung nur nach Tastendruck aktivieren</string>
@@ -118,6 +118,7 @@
   <string name="batterylight_title">Akku LED Einstellungen</string>
   <string name="battery_light_enable">Aktivieren</string>
   <string name="battery_low_pulse_title">Bei schwachem Akku pulsieren</string>
+  <string name="battery_light_only_full_charge_title">Nur Leuchten, wenn voll aufgeladen</string>
   <string name="battery_light_list_title">Farben</string>
   <string name="battery_light_low_color_title">Batterie schwach</string>
   <string name="battery_light_medium_color_title">Aufladen</string>
@@ -127,4 +128,15 @@
   <string name="led_color_red">Rot</string>
   <string name="led_color_blue">Blau</string>
   <!-- Power Menu -->
+  <string name="powermenu_manage">Power-Menü verwalten</string>
+  <string name="powermenu_reboot_title">Neustart</string>
+  <string name="powermenu_advanced_reboot_title">Erweitertes Neustartmenü</string>
+  <string name="powermenu_advanced_reboot_summary">Aktiviert erweiterte Neustartoptionen, wie starten in Wiederherstellung, Bootloader oder SystemUI neustarten</string>
+  <string name="powermenu_screenshot_title">Screenshot</string>
+  <string name="powermenu_airplane_title">Flugzeugmodus</string>
+  <string name="powermenu_category_other">Anderes</string>
+  <string name="powermenu_lockscreen_title">Sichtbarkeit Sperrbildschirm</string>
+  <string name="powermenu_lockscreen_summary">Powermenü auf dem Sperrbildschirm</string>
+  <!-- HW Keys customization -->
+  <string name="hardware_keys_category">Hardware-Tasten</string>
 </resources>

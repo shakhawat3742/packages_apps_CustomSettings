@@ -49,12 +49,9 @@
   <string name="volume_answer_call_title">Prijať hovor tlačidlom hlasitosti</string>
   <string name="volume_answer_call_summary">Prijatie hovoru pri stlačení tlačidiel hlasitosti</string>
   <!-- Torch Power button gestures -->
-  <string name="torch_power_button_gesture_title">Svietidlo pri vypnutej obrazovke</string>
   <string name="torch_power_button_gesture_none">Vypnuté</string>
   <string name="torch_power_button_gesture_dt">Dvojité poklepanie</string>
   <string name="torch_power_button_gesture_lp">Dlhé stlačenie</string>
-  <!-- Hardware keys -->
-  <string name="hardware_keys_category">Hardvérové tlačidlá</string>
   <!-- Button touch -->
   <string name="button_backlight_on_touch_only_title">Podsvietenie tlačidiel pri dotyku</string>
   <string name="button_backlight_on_touch_only_summary">Aktivuje podsvietenie s časovým obmedzením iba pri stlačení tlačidla</string>
@@ -131,4 +128,6 @@
   <string name="led_color_red">Červená</string>
   <string name="led_color_blue">Modrá</string>
   <!-- Power Menu -->
+  <!-- HW Keys customization -->
+  <string name="hardware_keys_category">Hardvérové tlačidlá</string>
 </resources>

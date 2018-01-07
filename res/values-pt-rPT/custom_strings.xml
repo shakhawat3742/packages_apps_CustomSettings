@@ -17,26 +17,110 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Color Picker -->
+  <string name="dialog_color_picker">Seletor de cores</string>
+  <string name="press_color_to_apply">Pressione um cor abaixo para aplicar</string>
+  <string name="arrow_right">→</string>
+  <string name="arrow_down">↓</string>
+  <string name="hex">Hex:</string>
+  <string name="hex_hint">#ff000000</string>
+  <string name="set">Definir</string>
+  <string name="color_default">Predefinição</string>
   <!-- Buttons -->
+  <string name="button_settings">Botões</string>
   <!-- Volume category -->
+  <string name="volume_category">Botões de volume</string>
   <!-- Power category -->
   <!-- Volume category -->
+  <string name="navbar_category">Barra de navegação</string>
   <!-- Volume button orientation based on current rotation -->
+  <string name="swap_volume_buttons_title">Trocar a orientação dos botões de volume</string>
+  <string name="swap_volume_buttons_summary">Ajustar a orientação dos botões de volume com base na orientação do dispositivo</string>
   <!-- Volume key controls media stream -->
   <!-- Volume rocker music control -->
+  <string name="volume_rocker_music_controls_title">Controlo de reprodução</string>
   <!-- Volume rocker wake -->
   <!-- The volume key answer -->
+  <string name="volume_answer_call_title">Tecla de volume para responder</string>
+  <string name="volume_answer_call_summary">Atender a chamada, quando pressionado as teclas de volume</string>
   <!-- Torch Power button gestures -->
-  <!-- Hardware keys -->
+  <string name="torch_power_button_gesture_title">Lanterna quando o ecrã estiver desligado</string>
+  <string name="torch_power_button_gesture_none">Desactivado</string>
+  <string name="torch_power_button_gesture_dt">Duplo toque</string>
+  <string name="torch_power_button_gesture_lp">Toque longo</string>
   <!-- Button touch -->
+  <string name="button_backlight_on_touch_only_title">Toque no botão</string>
+  <string name="button_backlight_on_touch_only_summary">Ativar a luz de fundo com tempo limite apenas no toque de botão</string>
   <!-- Buttons backlight timeout -->
+  <string name="backlight_timeout_title">Limite de tempo de retroiluminação dos botões</string>
+  <string name="backlight_timeout_on">Sempre activada</string>
+  <string name="backlight_timeout_3s">3 seg</string>
+  <string name="backlight_timeout_default">5 seg (por omissão)</string>
+  <string name="backlight_timeout_10s">10 seg</string>
+  <string name="backlight_timeout_15s">15 seg</string>
+  <string name="backlight_timeout_20s">20 seg</string>
+  <string name="backlight_timeout_30s">30 seg</string>
   <!-- Enable keys backlight-->
+  <string name="button_brightness_title">Luz de fundo</string>
   <!-- Enable keys backlight-->
+  <string name="button_brightness_sw_title">Ativar luz de fundo</string>
   <!-- Navbar tuner -->
+  <string name="navbar_tuner_title">Gerir a barra de navegação</string>
   <!-- Notification light dialogs -->
+  <string name="ok">Okay</string>
+  <string name="reset">Reiniciar</string>
+  <string name="advanced">Avançado</string>
+  <string name="profiles_add">Adicionar...</string>
+  <string name="edit_light_settings">Editar definições de luz</string>
+  <string name="pulse_speed_title">Duração e velocidade da luz ao piscar</string>
+  <string name="default_time">Normal</string>
+  <string name="custom_time">Personalizado</string>
+  <string name="dialog_choose_app">Selecionar app</string>
+  <string name="dialog_delete_title">Eliminar</string>
+  <string name="dialog_delete_message">Eliminar o item selecionado?</string>
   <!-- Values for the notification light pulse spinners -->
+  <string name="pulse_length_always_on">Sempre ligado</string>
+  <string name="pulse_length_very_short">Muito curto</string>
+  <string name="pulse_length_short">Curto</string>
+  <string name="pulse_length_normal">Normal</string>
+  <string name="pulse_length_long">Longo</string>
+  <string name="pulse_length_very_long">Muito longo</string>
+  <string name="pulse_speed_very_fast">Muito rápido</string>
+  <string name="pulse_speed_fast">Rápido</string>
+  <string name="pulse_speed_normal">Normal</string>
+  <string name="pulse_speed_slow">Lento</string>
+  <string name="pulse_speed_very_slow">Muito lento</string>
   <!-- Lights settings screen, notification light settings -->
+  <string name="notification_light_title">Luz de notificação</string>
+  <string name="notification_light_title_summary">Activar pulsar LED de notificação</string>
+  <string name="notification_light_general_title">Geral</string>
+  <string name="notification_light_applist_title">Apps</string>
+  <string name="notification_light_phonelist_title">Telefone</string>
+  <string name="notification_light_use_custom">Usar valores personalizados</string>
+  <string name="notification_light_default_value">Predefinição</string>
+  <string name="notification_light_missed_call_title">Chamda perdida</string>
+  <string name="notification_light_voicemail_title">Voicemail</string>
+  <string name="notification_light_use_multiple_leds">LEDs múltiplos</string>
   <!-- Notification light settings -->
+  <string name="leds_category_title">Opções do LED</string>
+  <string name="battery_light_settings">Luz da bateria</string>
   <!-- Battery light settings  -->
+  <string name="battery_light_enable">Activar</string>
+  <string name="battery_low_pulse_title">Pulsar quando a bateria está fraca</string>
+  <string name="battery_light_list_title">Cores</string>
+  <string name="battery_light_low_color_title">Bateria fraca</string>
+  <string name="battery_light_medium_color_title">A carregar</string>
+  <string name="battery_light_full_color_title">Carregado (90%)</string>
+  <string name="battery_light_really_full_color_title">Carregado (100%)</string>
+  <string name="led_color_green">Verde</string>
+  <string name="led_color_red">Vermelho</string>
+  <string name="led_color_blue">Azul</string>
   <!-- Power Menu -->
+  <string name="powermenu_manage">Gerir menu de energia</string>
+  <string name="powermenu_reboot_title">Reiniciar</string>
+  <string name="powermenu_advanced_reboot_title">Reiniciar avançado</string>
+  <string name="powermenu_airplane_title">Modo de avião</string>
+  <string name="powermenu_category_other">Outro</string>
+  <!-- HW Keys customization -->
+  <string name="choose_action_title">Escolha a ação</string>
+  <string name="action_entry_default_action">Configurações Predefinidas</string>
 </resources>

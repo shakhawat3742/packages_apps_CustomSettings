@@ -17,17 +17,25 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Color Picker -->
+  <string name="dialog_color_picker">Nuancier</string>
+  <string name="press_color_to_apply">Sélectionner la couleur ci-dessous pour l\'appliquer</string>
   <!-- Buttons -->
   <!-- Volume category -->
   <!-- Power category -->
   <!-- Volume category -->
+  <string name="navbar_category">Barre de navigation</string>
   <!-- Volume button orientation based on current rotation -->
+  <string name="swap_volume_buttons_title">Inverser l\'orientation des boutons de volume</string>
+  <string name="swap_volume_buttons_summary">Ajuster l\'orientation des boutons en fonction de l\'orientation actuelle</string>
   <!-- Volume key controls media stream -->
+  <string name="volume_keys_control_media_stream_title">Les boutons de volume contrôlent le volume des sons multimédia</string>
+  <string name="volume_keys_control_media_stream_summary">Forcer les touches de volume pour contrôler le flux multimédia</string>
   <!-- Volume rocker music control -->
+  <string name="volume_rocker_music_controls_summary">Lorsque l\'écran est éteint, un appui long sur les boutons de volume permet de changer le titre en cours de lecture</string>
   <!-- Volume rocker wake -->
   <!-- The volume key answer -->
+  <string name="volume_answer_call_title">Décrocher un appel via les touches de volume</string>
   <!-- Torch Power button gestures -->
-  <!-- Hardware keys -->
   <!-- Button touch -->
   <!-- Buttons backlight timeout -->
   <!-- Enable keys backlight-->
@@ -36,7 +44,21 @@
   <!-- Notification light dialogs -->
   <!-- Values for the notification light pulse spinners -->
   <!-- Lights settings screen, notification light settings -->
+  <string name="notification_light_title">LED de notification</string>
+  <string name="notification_light_applist_title">Applications</string>
+  <string name="notification_light_phonelist_title">Téléphone</string>
+  <string name="notification_light_missed_call_title">Appel manqué</string>
+  <string name="notification_light_voicemail_title">Messagerie vocale</string>
   <!-- Notification light settings -->
+  <string name="battery_light_settings">Voyant de batterie</string>
   <!-- Battery light settings  -->
+  <string name="battery_low_pulse_title">Clignoter si batterie faible</string>
+  <string name="battery_light_low_color_title">Batterie faible</string>
+  <string name="battery_light_medium_color_title">En charge</string>
+  <string name="led_color_red">Rouge</string>
   <!-- Power Menu -->
+  <string name="powermenu_screenshot_title">Capture d\'écran</string>
+  <string name="powermenu_airplane_title">Mode Avion</string>
+  <string name="powermenu_category_other">Autres</string>
+  <!-- HW Keys customization -->
 </resources>

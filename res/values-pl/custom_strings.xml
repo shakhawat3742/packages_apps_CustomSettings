@@ -49,12 +49,9 @@
   <string name="volume_answer_call_title">Odbierz klawiszem głośności</string>
   <string name="volume_answer_call_summary">Odbierz połączenie naciskając przycisk zmiany głośności</string>
   <!-- Torch Power button gestures -->
-  <string name="torch_power_button_gesture_title">Przytrzymaj przycisk zasilania, aby włączyć latarkę, gdy ekran jest wyłączony.</string>
   <string name="torch_power_button_gesture_none">Wyłączone</string>
   <string name="torch_power_button_gesture_dt">Dwukrotne tapnięcie</string>
   <string name="torch_power_button_gesture_lp">Długie naciśnięcie</string>
-  <!-- Hardware keys -->
-  <string name="hardware_keys_category">Przyciski sprzętowe</string>
   <!-- Button touch -->
   <string name="button_backlight_on_touch_only_title">Przy naciśnięciu</string>
   <string name="button_backlight_on_touch_only_summary">Aktywuje podświetlenie przycisków z opóźnieniem tylko po ich dotknięciu</string>
@@ -131,4 +128,15 @@
   <string name="led_color_red">Czerwony</string>
   <string name="led_color_blue">Niebieski</string>
   <!-- Power Menu -->
+  <string name="powermenu_manage">Zarządzanie menu zasilania</string>
+  <string name="powermenu_reboot_title">Uruchom ponownie</string>
+  <string name="powermenu_advanced_reboot_title">Zaawansowany restart</string>
+  <string name="powermenu_advanced_reboot_summary">Umożliwia przejście do zaawansowanych funkcji restartu takich jak recovery, bootloader, system lub szybki restart</string>
+  <string name="powermenu_screenshot_title">Zrzut ekranu</string>
+  <string name="powermenu_airplane_title">Tryb samolotowy</string>
+  <string name="powermenu_category_other">Inne</string>
+  <string name="powermenu_lockscreen_title">Widoczność ekranu blokady</string>
+  <string name="powermenu_lockscreen_summary">Włącz możliwość skorzystania z okna menu zasilania na ekranie blokady</string>
+  <!-- HW Keys customization -->
+  <string name="hardware_keys_category">Przyciski sprzętowe</string>
 </resources>

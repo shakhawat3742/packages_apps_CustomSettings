@@ -17,26 +17,126 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Color Picker -->
+  <string name="dialog_color_picker">Pilihan warna</string>
+  <string name="press_color_to_apply">Tekan pada warna di bawah untuk melamar</string>
+  <string name="arrow_right">→</string>
+  <string name="arrow_down">↓</string>
+  <string name="hex">Hex:</string>
+  <string name="hex_hint">#ff000000</string>
+  <string name="set">Set</string>
+  <string name="color_default">Default</string>
   <!-- Buttons -->
+  <string name="button_settings">Tombol</string>
   <!-- Volume category -->
+  <string name="volume_category">Volume Rocker</string>
   <!-- Power category -->
+  <string name="power_category">Tenaga</string>
   <!-- Volume category -->
+  <string name="navbar_category">Bar navigasi</string>
   <!-- Volume button orientation based on current rotation -->
+  <string name="swap_volume_buttons_title">Orientasi rocker volume swap</string>
+  <string name="swap_volume_buttons_summary">Menyesuaikan orientasi rocker rotasi saat ini</string>
   <!-- Volume key controls media stream -->
+  <string name="volume_keys_control_media_stream_title">Tombol volume mengontrol volume media</string>
+  <string name="volume_keys_control_media_stream_summary">Paksa tombol volume untuk mengontrol media stream</string>
   <!-- Volume rocker music control -->
+  <string name="volume_rocker_music_controls_title">Kontrol pemutar</string>
+  <string name="volume_rocker_music_controls_summary">Ketika layar dimatikan, menekan dan menahan tombol volume akan mencari trek musik</string>
   <!-- Volume rocker wake -->
+  <string name="volume_rocker_wake_title">Bangun volume rocker</string>
+  <string name="volume_rocker_wake_summary">Menekan tombol volume akan membangunkan perangkat Anda</string>
   <!-- The volume key answer -->
+  <string name="volume_answer_call_title">Tombol volume menjawab</string>
+  <string name="volume_answer_call_summary">Jawab panggilan saat tombol volume ditekan</string>
   <!-- Torch Power button gestures -->
-  <!-- Hardware keys -->
+  <string name="torch_power_button_gesture_none">Cacat</string>
+  <string name="torch_power_button_gesture_dt">Tekan dua kali</string>
+  <string name="torch_power_button_gesture_lp">Tekan lama</string>
   <!-- Button touch -->
+  <string name="button_backlight_on_touch_only_title">Tombol sentuh</string>
+  <string name="button_backlight_on_touch_only_summary">Aktifkan lampu latar dengan batas waktu hanya pada sentuhan tombol</string>
   <!-- Buttons backlight timeout -->
+  <string name="backlight_timeout_title">Tombol backlight timeout</string>
+  <string name="backlight_timeout_on">Diaktifkan selalu</string>
+  <string name="backlight_timeout_3s">3 dtk</string>
+  <string name="backlight_timeout_default">5 detik (default)</string>
+  <string name="backlight_timeout_10s">10 dtk</string>
+  <string name="backlight_timeout_15s">15 detik</string>
+  <string name="backlight_timeout_20s">20 detik</string>
+  <string name="backlight_timeout_30s">30 detik</string>
   <!-- Enable keys backlight-->
+  <string name="button_brightness_title">Lampu latar</string>
   <!-- Enable keys backlight-->
+  <string name="button_brightness_sw_title">Aktifkan lampu latar</string>
   <!-- Navbar tuner -->
+  <string name="navbar_tuner_title">Kelola bilah navigasi</string>
   <!-- Notification light dialogs -->
+  <string name="ok">Baik</string>
+  <string name="reset">Setel ulang</string>
+  <string name="advanced">Maju</string>
+  <string name="profiles_add">Tambah...</string>
+  <string name="edit_light_settings">Ubah setelan lampu</string>
+  <string name="pulse_speed_title">Lama dan kecepatan editan</string>
+  <string name="default_time">Biasa</string>
+  <string name="custom_time">Pengaturan sendiri</string>
+  <string name="dialog_choose_app">Pilih aplikasi</string>
+  <string name="dialog_delete_title">Hapus</string>
+  <string name="dialog_delete_message">Hapus item yang dipilih?</string>
   <!-- Values for the notification light pulse spinners -->
+  <string name="pulse_length_always_on">Selalu hidup</string>
+  <string name="pulse_length_very_short">Sangat singkat</string>
+  <string name="pulse_length_short">Singkat</string>
+  <string name="pulse_length_normal">Biasa</string>
+  <string name="pulse_length_long">Lama</string>
+  <string name="pulse_length_very_long">Sangat lama</string>
+  <string name="pulse_speed_very_fast">Sangat cepat</string>
+  <string name="pulse_speed_fast">Cepat</string>
+  <string name="pulse_speed_normal">Biasa</string>
+  <string name="pulse_speed_slow">Lambat</string>
+  <string name="pulse_speed_very_slow">Sangat lambat</string>
   <!-- Lights settings screen, notification light settings -->
+  <string name="notification_light_title">Lampu notifikasi</string>
+  <string name="notification_light_title_summary">Mengaktifkan berdenyut LED pemberitahuan</string>
+  <string name="notification_light_general_title">Umum</string>
+  <string name="notification_light_applist_title">Aplikasi</string>
+  <string name="notification_light_phonelist_title">Telepon</string>
+  <string name="notification_light_use_custom">Gunakan nilai lain</string>
+  <string name="notification_light_use_custom_summary">Memungkinkan untuk mengatur setiap app pemberitahuan warna</string>
+  <string name="notification_light_default_value">Standar</string>
+  <string name="notification_light_missed_call_title">Panggilan tidak terjawab</string>
+  <string name="notification_light_voicemail_title">Pesan suara</string>
+  <string name="notification_light_screen_on">Lampu dengan layar menyala</string>
+  <string name="notification_light_zen_mode">Lampu di mode jangan ganggu</string>
+  <string name="notification_light_use_multiple_leds">Beberapa LED</string>
   <!-- Notification light settings -->
+  <string name="leds_category_title">LED pilihan</string>
+  <string name="battery_light_settings">Lampu baterai</string>
+  <string name="led_notification_title">Setelan lampu</string>
+  <string name="led_notification_text">Lampu LED diaktifkan oleh pengaturan</string>
+  <string name="notification_light_no_apps_summary">Untuk menambah kontrol pada setiap aplikasi, aktifkan \'%1$s\' and press \'\u002b\' on the menu bar</string>
   <!-- Battery light settings  -->
+  <string name="batterylight_title">Setelan lampu baterai</string>
+  <string name="battery_light_enable">Mengaktifkan</string>
+  <string name="battery_low_pulse_title">Kedip jika baterai rendah</string>
+  <string name="battery_light_only_full_charge_title">Hanya menyala saat terisi penuh</string>
+  <string name="battery_light_list_title">Warna</string>
+  <string name="battery_light_low_color_title">Baterai lemah</string>
+  <string name="battery_light_medium_color_title">Pengisian daya</string>
+  <string name="battery_light_full_color_title">Pengisian daya (90%)</string>
+  <string name="battery_light_really_full_color_title">Pengisian daya (100%)</string>
+  <string name="led_color_green">Hijau</string>
+  <string name="led_color_red">Merah</string>
+  <string name="led_color_blue">Biru</string>
   <!-- Power Menu -->
+  <string name="powermenu_manage">Kelola menu daya</string>
+  <string name="powermenu_reboot_title">Nyalakan ulang</string>
+  <string name="powermenu_advanced_reboot_title">Lanjutkan reboot</string>
+  <string name="powermenu_advanced_reboot_summary">Mengaktifkan menu reboot lanjutan untuk opsi reboot ke pemulihan, bootloader, restart systemui atau memicu reboot panas</string>
+  <string name="powermenu_screenshot_title">Gambar layar</string>
+  <string name="powermenu_airplane_title">Mode pesawat</string>
+  <string name="powermenu_category_other">Lain</string>
+  <string name="powermenu_lockscreen_title">Visibilitas layar terkunci</string>
+  <string name="powermenu_lockscreen_summary">Aktifkan kemampuan untuk menampilkan dan menggunakan dialog menu daya saat berada di layar lockscreen</string>
+  <!-- HW Keys customization -->
+  <string name="hardware_keys_category">Kunci perangkat keras</string>
 </resources>

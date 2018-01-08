@@ -43,6 +43,8 @@ import com.android.internal.util.custom.CustomUtils;
 import com.android.internal.util.hwkeys.ActionConstants;
 import com.android.internal.util.hwkeys.ActionUtils;
 
+import com.android.settings.custom.preference.ActionPreference;
+
 public class ButtonSettings extends ActionFragment implements
         Preference.OnPreferenceChangeListener {
     private static final String TAG = "Buttons";
@@ -63,6 +65,7 @@ public class ButtonSettings extends ActionFragment implements
     private static final String CATEGORY_BACK = "back_key";
     private static final String CATEGORY_ASSIST = "assist_key";
     private static final String CATEGORY_APPSWITCH = "app_switch_key";
+    private static final String CATEGORY_UTOUCH = "utouch_key";
 
     // Masks for checking presence of hardware keys.
     // Must match values in frameworks/base/core/res/res/values/config.xml
@@ -209,6 +212,18 @@ public class ButtonSettings extends ActionFragment implements
         // search/assist key
         if (!hasAssistKey) {
             prefScreen.removePreference(assistCategory);
+        }
+
+        final PreferenceCategory UTouchCategory =
+                (PreferenceCategory) prefScreen.findPreference(CATEGORY_UTOUCH);
+        final boolean useUTouch = getResources().getBoolean(R.bool.config_use_utouch_hwkeys_binding);
+        if (useUTouch){
+            prefScreen.removePreference(backCategory);
+            prefScreen.removePreference(assistCategory);
+            prefScreen.removePreference(appSwitchCategory);
+            prefScreen.removePreference(menuCategory);
+        }else{
+            prefScreen.removePreference(UTouchCategory);
         }
 
         // let super know we can load ActionPreferences

@@ -39,4 +39,8 @@
   <!-- Battery light settings  -->
   <!-- Power Menu -->
   <!-- HW Keys customization -->
+  <!-- UTouch -->
+  <string name="hardware_keys_utouch_left_swipe">Плъзгане наляво</string>
+  <string name="hardware_keys_utouch_right_swipe">Плъзгане надясно</string>
+  <string name="hardware_keys_utouch_long_tap">Дълго докосване</string>
 </resources>

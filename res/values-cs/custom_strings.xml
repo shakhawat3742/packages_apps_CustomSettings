@@ -160,4 +160,9 @@
   <string name="hardware_keys_double_tap_title">Akce dvojím poklepáním</string>
   <string name="hardware_keys_category">Hardwarová tlačítka</string>
   <string name="hardware_keys_enable_title">Povolit</string>
+  <!-- UTouch -->
+  <string name="hardware_keys_utouch_left_swipe">Posunutí doleva</string>
+  <string name="hardware_keys_utouch_right_swipe">Posunutí doprava</string>
+  <string name="hardware_keys_utouch_single_tap">Klepnutí</string>
+  <string name="hardware_keys_utouch_long_tap">Dlouhý stisk</string>
 </resources>

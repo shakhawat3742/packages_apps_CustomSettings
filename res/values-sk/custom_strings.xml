@@ -130,4 +130,5 @@
   <!-- Power Menu -->
   <!-- HW Keys customization -->
   <string name="hardware_keys_category">Hardvérové tlačidlá</string>
+  <!-- UTouch -->
 </resources>

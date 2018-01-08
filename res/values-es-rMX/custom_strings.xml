@@ -123,4 +123,8 @@
   <string name="powermenu_category_other">Otro</string>
   <string name="powermenu_lockscreen_title">Visibilidad de la pantalla de bloqueo</string>
   <!-- HW Keys customization -->
+  <!-- UTouch -->
+  <string name="hardware_keys_utouch_left_swipe">Deslizar hacia la izquierda</string>
+  <string name="hardware_keys_utouch_right_swipe">Deslizar hacia la derecha</string>
+  <string name="hardware_keys_utouch_long_tap">Mantener pulsado</string>
 </resources>

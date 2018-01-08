@@ -139,4 +139,5 @@
   <string name="powermenu_lockscreen_summary">Aktifkan kemampuan untuk menampilkan dan menggunakan dialog menu daya saat berada di layar lockscreen</string>
   <!-- HW Keys customization -->
   <string name="hardware_keys_category">Kunci perangkat keras</string>
+  <!-- UTouch -->
 </resources>

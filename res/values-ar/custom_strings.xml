@@ -161,4 +161,5 @@
   <string name="hardware_keys_double_tap_title">إجراء الضغط المزدوج</string>
   <string name="hardware_keys_category">مفاتيح الأجهزة</string>
   <string name="hardware_keys_enable_title">مكن</string>
+  <!-- UTouch -->
 </resources>

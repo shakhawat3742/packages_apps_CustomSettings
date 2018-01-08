@@ -139,4 +139,8 @@
   <string name="powermenu_lockscreen_summary">Включите, чтобы показать меню питания на экране блокировки</string>
   <!-- HW Keys customization -->
   <string name="hardware_keys_category">Аппаратные кнопки</string>
+  <!-- UTouch -->
+  <string name="hardware_keys_utouch_left_swipe">Свайп влево</string>
+  <string name="hardware_keys_utouch_right_swipe">Свайп вправо</string>
+  <string name="hardware_keys_utouch_long_tap">Долгое касание</string>
 </resources>

@@ -123,4 +123,8 @@
   <!-- HW Keys customization -->
   <string name="choose_action_title">Escolha a ação</string>
   <string name="action_entry_default_action">Configurações Predefinidas</string>
+  <!-- UTouch -->
+  <string name="hardware_keys_utouch_left_swipe">Deslizar para a esquerda</string>
+  <string name="hardware_keys_utouch_right_swipe">Deslizar para a direita</string>
+  <string name="hardware_keys_utouch_long_tap">Toque longo</string>
 </resources>

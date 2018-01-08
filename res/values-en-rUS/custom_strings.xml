@@ -129,4 +129,5 @@
   <!-- Power Menu -->
   <!-- HW Keys customization -->
   <string name="hardware_keys_category">Hardware keys</string>
+  <!-- UTouch -->
 </resources>

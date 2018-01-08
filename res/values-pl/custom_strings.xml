@@ -139,4 +139,8 @@
   <string name="powermenu_lockscreen_summary">Włącz możliwość skorzystania z okna menu zasilania na ekranie blokady</string>
   <!-- HW Keys customization -->
   <string name="hardware_keys_category">Przyciski sprzętowe</string>
+  <!-- UTouch -->
+  <string name="hardware_keys_utouch_left_swipe">Przesunięcie w lewo</string>
+  <string name="hardware_keys_utouch_right_swipe">Przesunięcie w prawo</string>
+  <string name="hardware_keys_utouch_long_tap">Długie naciśnięcie</string>
 </resources>

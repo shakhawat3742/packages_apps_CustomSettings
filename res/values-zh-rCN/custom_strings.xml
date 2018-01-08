@@ -160,4 +160,5 @@
   <string name="hardware_keys_double_tap_title">双击操作</string>
   <string name="hardware_keys_category">实体按键</string>
   <string name="hardware_keys_enable_title">启用</string>
+  <!-- UTouch -->
 </resources>

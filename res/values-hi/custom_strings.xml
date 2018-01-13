@@ -28,11 +28,14 @@
   <!-- Buttons -->
   <string name="button_settings">बटन</string>
   <!-- Volume category -->
+  <string name="volume_category">वॉल्यूम घुमाव</string>
   <!-- Power category -->
   <string name="power_category">शक्ति</string>
   <!-- Volume category -->
   <string name="navbar_category">नेविगेशन पट्टी</string>
   <!-- Volume button orientation based on current rotation -->
+  <string name="swap_volume_buttons_title">स्वैप वॉल्यूम रॉकर अभिविन्यास करे</string>
+  <string name="swap_volume_buttons_summary">वर्तमान रोटेशन के आधार पर रॉकर घुमाव समायोजित करें</string>
   <!-- Volume key controls media stream -->
   <string name="volume_keys_control_media_stream_title">वॉल्यूम बटन मीडिया वॉल्यूम नियंत्रण करते हैं</string>
   <string name="volume_keys_control_media_stream_summary">मीडिया स्ट्रीम को नियंत्रित करने के लिए वॉल्यूम कुंजियों को बाध्य करे</string>
@@ -43,7 +46,10 @@
   <string name="volume_rocker_wake_title">वॉल्यूम रॉकर से जगना</string>
   <string name="volume_rocker_wake_summary">वॉल्यूम बटन दबाने पर आप का फ़ोन जग जाएगा</string>
   <!-- The volume key answer -->
+  <string name="volume_answer_call_title">वॉल्यूम कुंजी से जवाब</string>
+  <string name="volume_answer_call_summary">जब वॉल्यूम कुंजी दबाने पर कॉल का जवाब दे</string>
   <!-- Torch Power button gestures -->
+  <string name="torch_power_button_gesture_title">जब स्क्रीन बंद हो तब फ्लैशलाइट</string>
   <string name="torch_power_button_gesture_none">अक्षम किया गया</string>
   <string name="torch_power_button_gesture_dt">दो बार स्पर्श</string>
   <string name="torch_power_button_gesture_lp">लंबे समय दबाए</string>
@@ -51,6 +57,7 @@
   <string name="button_backlight_on_touch_only_title">कुंजी स्पर्श</string>
   <string name="button_backlight_on_touch_only_summary">केवल कुंजी स्पर्श पर समय समाप्ति के साथ बैकलाइट सक्षम करें</string>
   <!-- Buttons backlight timeout -->
+  <string name="backlight_timeout_title">बटन बैकलाइट मध्यांतर</string>
   <string name="backlight_timeout_on">हमेशा सक्षम</string>
   <string name="backlight_timeout_3s">३ सेकेंड</string>
   <string name="backlight_timeout_default">५ सेकेंड (पूर्व निर्धारित)</string>
@@ -63,6 +70,7 @@
   <!-- Enable keys backlight-->
   <string name="button_brightness_sw_title">बैकलाइट सक्षम करें</string>
   <!-- Navbar tuner -->
+  <string name="navbar_tuner_title">नेविगेशन पट्टी को समायोजित करें</string>
   <!-- Notification light dialogs -->
   <string name="ok">ठीक है</string>
   <string name="reset">रीसेट करें</string>
@@ -72,6 +80,7 @@
   <string name="pulse_speed_title">पल्स लम्बाई और गति</string>
   <string name="default_time">सामान्य</string>
   <string name="custom_time">अनुकूल</string>
+  <string name="dialog_choose_app">ऐप्स चुनें</string>
   <string name="dialog_delete_title">हटाएँ</string>
   <string name="dialog_delete_message">चुने हुए को हटाएँ</string>
   <!-- Values for the notification light pulse spinners -->
@@ -93,10 +102,16 @@
   <string name="notification_light_applist_title">ऐप्स</string>
   <string name="notification_light_phonelist_title">फ़ोन</string>
   <string name="notification_light_use_custom">कस्टम मानों का उपयोग करें</string>
+  <string name="notification_light_use_custom_summary">प्रति एप्लिकेशन सूचना रंग सेट करने के लिए सक्षम करें</string>
   <string name="notification_light_default_value">पूर्व निर्धारित</string>
   <string name="notification_light_missed_call_title">मिस्ड कॉल</string>
   <string name="notification_light_voicemail_title">ध्वनि डाक</string>
+  <string name="notification_light_screen_on">स्क्रीन चालू होने के साथ रोशनी</string>
+  <string name="notification_light_zen_mode">डू नट डिस्टर्ब मोड में रोशनी</string>
+  <string name="notification_light_use_multiple_leds">बहुत सारे एलईडी</string>
   <!-- Notification light settings -->
+  <string name="leds_category_title">एलईडी विकल्प</string>
+  <string name="battery_light_settings">बैटरी प्रकाश</string>
   <string name="led_notification_title">प्रकाश सेटिंग्स</string>
   <string name="led_notification_text">एलईडी लाइट सेटिंग्स के द्वारा सक्षम किया गया</string>
   <string name="notification_light_no_apps_summary">प्रति एप्प नियंत्रण जोड़ने के लिए, \'%1$s\' को सक्रिय करें, और मेनू बार पर \'\u002b\' दबाएँ</string>
@@ -104,6 +119,7 @@
   <string name="batterylight_title">बैटरी एलईडी सेटिंग्स</string>
   <string name="battery_light_enable">सक्षम करें</string>
   <string name="battery_low_pulse_title">कम बैटरी होने पर स्पंद करे</string>
+  <string name="battery_light_only_full_charge_title">पूरी तरह चार्ज होने पर ही प्रकाश करे</string>
   <string name="battery_light_list_title">रंग</string>
   <string name="battery_light_low_color_title">बैटरी कम है</string>
   <string name="battery_light_medium_color_title">चार्ज हो रहा है</string>
@@ -113,13 +129,22 @@
   <string name="led_color_red">लाल</string>
   <string name="led_color_blue">नीला</string>
   <!-- Power Menu -->
+  <string name="powermenu_manage">पावर मेनू प्रबंधित करें</string>
   <string name="powermenu_reboot_title">पुनः आरम्भ</string>
+  <string name="powermenu_advanced_reboot_title">उन्नत रीबूट</string>
+  <string name="powermenu_advanced_reboot_summary">रिकवरी, बूटलोडर, systemui पुनः आरंभ या एक तुरंत रिबूट ट्रिगर करने के लिए रिबूट करने के लिए विकल्पों के लिए उन्नत रिबूट मेनू सक्षम बनाता है</string>
   <string name="powermenu_screenshot_title">स्क्रीनशॉट</string>
   <string name="powermenu_airplane_title">हवाई जहाज मोड</string>
   <string name="powermenu_category_other">अन्य</string>
+  <string name="powermenu_lockscreen_title">लॉक्सक्रीन दृश्यता</string>
+  <string name="powermenu_lockscreen_summary">लॉकस्क्रीन पर होने पर पावर मेनू संवाद दिखाने और उपयोग करने की क्षमता सक्षम करें</string>
   <!-- HW Keys customization -->
   <string name="picker_activities">गतिविधियों</string>
+  <string name="select_custom_app_title">कस्टम ऐप का चयन करें</string>
+  <string name="select_custom_activity_title">कस्टम गतिविधि चुनें</string>
+  <string name="profile_applist_title">एप्लीकेशन</string>
   <string name="choose_action_title">क्रिया चुनें</string>
+  <string name="action_entry_default_action">पुनः निर्धारित सेटिंग्स</string>
   <string name="action_entry_select_app">एप्लिकेशन चयन करें</string>
   <string name="action_entry_custom_action">कस्टम क्रिया का चयन करें</string>
   <string name="hardware_keys_home_key_title">होम बटन</string>
@@ -130,9 +155,14 @@
   <string name="hardware_keys_double_tap_summary">दो बार टैप कारवाई स्थापित करे</string>
   <string name="hardware_keys_single_tap_summary">एक बार टैप कारवाई स्थापित करे</string>
   <string name="hardware_keys_long_press_summary">लंबा दबाने पर कारवाई स्थापित करे</string>
+  <string name="hardware_keys_single_tap_title">एक बार टैप कारवाई</string>
   <string name="hardware_keys_long_press_title">लंबा दबाने से क्रिया</string>
   <string name="hardware_keys_double_tap_title">दो बार टैप से क्रिया</string>
   <string name="hardware_keys_category">हार्डवेयर कुंजी</string>
   <string name="hardware_keys_enable_title">सक्षम करें</string>
   <!-- UTouch -->
+  <string name="hardware_keys_utouch_left_swipe">बाएं फेरना</string>
+  <string name="hardware_keys_utouch_right_swipe">दाहिने फेरना</string>
+  <string name="hardware_keys_utouch_single_tap">टेप करें</string>
+  <string name="hardware_keys_utouch_long_tap">लंबा दबाएँ</string>
 </resources>

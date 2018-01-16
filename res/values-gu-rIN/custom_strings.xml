@@ -84,6 +84,13 @@
   <string name="dialog_delete_title">કાઢી નાખો</string>
   <string name="dialog_delete_message">પસંદ કરેલ કાઢો?</string>
   <!-- Values for the notification light pulse spinners -->
+  <string name="pulse_length_always_on">Pulse_length_always_on
+સૂચન પ્રકાશ પલ્સ સ્પિનર ​​માટેના મૂલ્યો</string>
+  <string name="pulse_length_very_short">ખુબ જ ટુક માં</string>
+  <string name="pulse_length_short">લઘુ</string>
+  <string name="pulse_length_normal">સામાન્ય</string>
+  <string name="pulse_length_long">લાંબા</string>
+  <string name="pulse_length_very_long">ખુબ લાંબુ</string>
   <!-- Lights settings screen, notification light settings -->
   <!-- Notification light settings -->
   <!-- Battery light settings  -->

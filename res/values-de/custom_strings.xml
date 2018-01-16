@@ -18,19 +18,19 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Color Picker -->
   <string name="dialog_color_picker">Farbauswahl</string>
-  <string name="press_color_to_apply">Drücke die zu benutzende Farbe</string>
+  <string name="press_color_to_apply">Zum Festlegen der Farbe auf die Farbdarstellung unten tippen</string>
   <string name="arrow_right">→</string>
   <string name="arrow_down">↓</string>
   <string name="hex">Hex:</string>
   <string name="hex_hint">#ff000000</string>
   <string name="set">Setze</string>
-  <string name="color_default">Standart</string>
+  <string name="color_default">Standardeinstellung</string>
   <!-- Buttons -->
-  <string name="button_settings">Tasten</string>
+  <string name="button_settings">Schaltflächen</string>
   <!-- Volume category -->
   <string name="volume_category">Lautstärketaste</string>
   <!-- Power category -->
-  <string name="power_category">Ausschalten</string>
+  <string name="power_category">Strom</string>
   <!-- Volume category -->
   <string name="navbar_category">Navigationsleiste</string>
   <!-- Volume button orientation based on current rotation -->
@@ -70,10 +70,10 @@
   <!-- Enable keys backlight-->
   <string name="button_brightness_sw_title">Hintergrundbeleuchtung aktivieren</string>
   <!-- Navbar tuner -->
-  <string name="navbar_tuner_title">Navigationsleiste Verwalten</string>
+  <string name="navbar_tuner_title">Navigationsleiste bearbeiten</string>
   <!-- Notification light dialogs -->
   <string name="ok">Okay</string>
-  <string name="reset">Rücksetzen</string>
+  <string name="reset">Zurücksetzen</string>
   <string name="advanced">Erweitert</string>
   <string name="profiles_add">Hinzufügen...</string>
   <string name="edit_light_settings">Led-Einstellungen bearbeiten</string>

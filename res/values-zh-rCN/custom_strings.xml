@@ -59,10 +59,10 @@
   <!-- Buttons backlight timeout -->
   <string name="backlight_timeout_title">按键背光超时</string>
   <string name="backlight_timeout_on">总是启用</string>
-  <string name="backlight_timeout_3s">3 秒</string>
+  <string name="backlight_timeout_3s">3秒</string>
   <string name="backlight_timeout_default">5秒（默认）</string>
   <string name="backlight_timeout_10s">10秒</string>
-  <string name="backlight_timeout_15s">15 秒</string>
+  <string name="backlight_timeout_15s">15秒</string>
   <string name="backlight_timeout_20s">20秒</string>
   <string name="backlight_timeout_30s">30秒</string>
   <!-- Enable keys backlight-->
@@ -163,6 +163,6 @@
   <!-- UTouch -->
   <string name="hardware_keys_utouch_left_swipe">左滑</string>
   <string name="hardware_keys_utouch_right_swipe">右滑</string>
-  <string name="hardware_keys_utouch_single_tap">点按</string>
-  <string name="hardware_keys_utouch_long_tap">长按</string>
+  <string name="hardware_keys_utouch_single_tap">轻触</string>
+  <string name="hardware_keys_utouch_long_tap">长轻触</string>
 </resources>

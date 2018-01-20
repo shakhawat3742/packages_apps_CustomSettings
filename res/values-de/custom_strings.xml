@@ -23,30 +23,30 @@
   <string name="arrow_down">↓</string>
   <string name="hex">Hex:</string>
   <string name="hex_hint">#ff000000</string>
-  <string name="set">Setze</string>
+  <string name="set">Setzen</string>
   <string name="color_default">Standardeinstellung</string>
   <!-- Buttons -->
   <string name="button_settings">Schaltflächen</string>
   <!-- Volume category -->
   <string name="volume_category">Lautstärketaste</string>
   <!-- Power category -->
-  <string name="power_category">Strom</string>
+  <string name="power_category">Einschalttaste</string>
   <!-- Volume category -->
   <string name="navbar_category">Navigationsleiste</string>
   <!-- Volume button orientation based on current rotation -->
   <string name="swap_volume_buttons_title">Lautstärketasten umkehren</string>
-  <string name="swap_volume_buttons_summary">Belegung der Lautstärketasten umkehren, wenn das Gerät gedreht wird</string>
+  <string name="swap_volume_buttons_summary">Belegung der Lautstärketasten der aktuellen Drehung anpassen</string>
   <!-- Volume key controls media stream -->
   <string name="volume_keys_control_media_stream_title">Lautstärketasten steuern Medienlautstärke</string>
   <string name="volume_keys_control_media_stream_summary">Erzwinge Lautstärketasten zur Kontrolle des Media Stream</string>
   <!-- Volume rocker music control -->
   <string name="volume_rocker_music_controls_title">Wiedergabesteuerung</string>
-  <string name="volume_rocker_music_controls_summary">Bei ausgeschaltetem Bildschirm, wird durch langes drücken der Lautstärketaste der Musiktitel gewechselt</string>
+  <string name="volume_rocker_music_controls_summary">Bei ausgeschaltetem Bildschirm wird durch langes drücken der Lautstärketaste der Musiktitel gewechselt</string>
   <!-- Volume rocker wake -->
-  <string name="volume_rocker_wake_title">Aufwecken durch Lautstärketasten</string>
+  <string name="volume_rocker_wake_title">Aufwecken über Lautstärketasten</string>
   <string name="volume_rocker_wake_summary">Drücken der Lautstärketasten weckt Ihr Gerät</string>
   <!-- The volume key answer -->
-  <string name="volume_answer_call_title">Antworten mit Lautstärketaste</string>
+  <string name="volume_answer_call_title">Gesprächsannahme mit Lautstärketaste</string>
   <string name="volume_answer_call_summary">Anruf mit den Lautstärketasten annehmen</string>
   <!-- Torch Power button gestures -->
   <string name="torch_power_button_gesture_title">Taschenlampe bei ausgeschaltetem Bildschirm</string>
@@ -72,12 +72,12 @@
   <!-- Navbar tuner -->
   <string name="navbar_tuner_title">Navigationsleiste bearbeiten</string>
   <!-- Notification light dialogs -->
-  <string name="ok">Okay</string>
+  <string name="ok">OK</string>
   <string name="reset">Zurücksetzen</string>
   <string name="advanced">Erweitert</string>
   <string name="profiles_add">Hinzufügen...</string>
-  <string name="edit_light_settings">Led-Einstellungen bearbeiten</string>
-  <string name="pulse_speed_title">Pulsdauer und Geschwindigkeit</string>
+  <string name="edit_light_settings">LED-Einstellungen bearbeiten</string>
+  <string name="pulse_speed_title">Blinkdauer und Geschwindigkeit</string>
   <string name="default_time">Normal</string>
   <string name="custom_time">Benutzerdefiniert</string>
   <string name="dialog_choose_app">App auswählen</string>
@@ -96,33 +96,33 @@
   <string name="pulse_speed_slow">Langsam</string>
   <string name="pulse_speed_very_slow">Sehr langsam</string>
   <!-- Lights settings screen, notification light settings -->
-  <string name="notification_light_title">Benachrichtigungs-Led</string>
-  <string name="notification_light_title_summary">Aktiviere Pulsierendes Benachrichtigungslicht</string>
+  <string name="notification_light_title">Benachrichtigungs-LED</string>
+  <string name="notification_light_title_summary">Aktiviere blinkende Benachrichtigungs-LED</string>
   <string name="notification_light_general_title">Allgemein</string>
   <string name="notification_light_applist_title">Apps</string>
   <string name="notification_light_phonelist_title">Telefon</string>
   <string name="notification_light_use_custom">Benutzerdefinierte Werte verwenden</string>
-  <string name="notification_light_use_custom_summary">Aktivieren um Benachrichtigungsfarben einzustellen</string>
+  <string name="notification_light_use_custom_summary">Aktivieren um Benachrichtigungsfarben per App einzustellen</string>
   <string name="notification_light_default_value">Standard</string>
   <string name="notification_light_missed_call_title">Verpasster Anruf</string>
   <string name="notification_light_voicemail_title">Anrufbeantworter</string>
-  <string name="notification_light_screen_on">Led-Anzeige bei aktivem Display</string>
-  <string name="notification_light_zen_mode">Led-Anzeige im \"Nicht stören\"-Modus</string>
+  <string name="notification_light_screen_on">LED-Anzeige bei aktivem Display</string>
+  <string name="notification_light_zen_mode">LED-Anzeige im \"Nicht stören\"-Modus</string>
   <string name="notification_light_use_multiple_leds">Mehrere LEDs</string>
   <!-- Notification light settings -->
   <string name="leds_category_title">LED-Optionen</string>
-  <string name="battery_light_settings">Batterie Licht</string>
-  <string name="led_notification_title">Led-Einstellungen</string>
-  <string name="led_notification_text">Benachrichtigungs-LED von Einstellungen aktiviert</string>
+  <string name="battery_light_settings">Akku-LED</string>
+  <string name="led_notification_title">LED-Einstellungen</string>
+  <string name="led_notification_text">Benachrichtigungs-LED durch Einstellungen aktiviert</string>
   <string name="notification_light_no_apps_summary">Aktiviere %1$s und tippe auf \'\u002b\' in der Menüleiste, um eine Per-App-Kontrolle einzustellen</string>
   <!-- Battery light settings  -->
   <string name="batterylight_title">Akku LED Einstellungen</string>
   <string name="battery_light_enable">Aktivieren</string>
-  <string name="battery_low_pulse_title">Bei schwachem Akku pulsieren</string>
+  <string name="battery_low_pulse_title">Bei schwachem Akku blinken</string>
   <string name="battery_light_only_full_charge_title">Nur Leuchten, wenn voll aufgeladen</string>
   <string name="battery_light_list_title">Farben</string>
-  <string name="battery_light_low_color_title">Batterie schwach</string>
-  <string name="battery_light_medium_color_title">Aufladen</string>
+  <string name="battery_light_low_color_title">Akku schwach</string>
+  <string name="battery_light_medium_color_title">Laden</string>
   <string name="battery_light_full_color_title">Aufgeladen (90%)</string>
   <string name="battery_light_really_full_color_title">Aufgeladen (100%)</string>
   <string name="led_color_green">Grün</string>
@@ -131,13 +131,13 @@
   <!-- Power Menu -->
   <string name="powermenu_manage">Power-Menü verwalten</string>
   <string name="powermenu_reboot_title">Neustart</string>
-  <string name="powermenu_advanced_reboot_title">Erweitertes Neustartmenü</string>
-  <string name="powermenu_advanced_reboot_summary">Aktiviert erweiterte Neustartoptionen, wie starten in Wiederherstellung, Bootloader oder SystemUI neustarten</string>
-  <string name="powermenu_screenshot_title">Screenshot</string>
-  <string name="powermenu_airplane_title">Flugzeugmodus</string>
-  <string name="powermenu_category_other">Anderes</string>
+  <string name="powermenu_advanced_reboot_title">Erweiterter Neustart</string>
+  <string name="powermenu_advanced_reboot_summary">Aktiviert erweiterte Neustartoptionen, wie starten in Recovery, Bootloader oder SystemUI</string>
+  <string name="powermenu_screenshot_title">Bildschirmfoto</string>
+  <string name="powermenu_airplane_title">Flugmodus</string>
+  <string name="powermenu_category_other">Weitere</string>
   <string name="powermenu_lockscreen_title">Sichtbarkeit Sperrbildschirm</string>
-  <string name="powermenu_lockscreen_summary">Powermenü auf dem Sperrbildschirm</string>
+  <string name="powermenu_lockscreen_summary">Powermenü auf dem Sperrbildschirm anzeigen und verwenden</string>
   <!-- HW Keys customization -->
   <string name="picker_activities">Aktivitäten</string>
   <string name="select_custom_app_title">Benutzerdefinierte App auswählen</string>
@@ -145,19 +145,19 @@
   <string name="profile_applist_title">Anwendungen</string>
   <string name="choose_action_title">Aktion wählen</string>
   <string name="action_entry_default_action">Standard Einstellungen</string>
-  <string name="action_entry_select_app">Anwendung auswählen</string>
+  <string name="action_entry_select_app">App wählen</string>
   <string name="action_entry_custom_action">Benutzerdefinierte Aktion auswählen</string>
-  <string name="hardware_keys_home_key_title">Homebutton</string>
+  <string name="hardware_keys_home_key_title">Home-Taste</string>
   <string name="hardware_keys_menu_key_title">Menütaste</string>
-  <string name="hardware_keys_assist_key_title">Suchen Taste</string>
+  <string name="hardware_keys_assist_key_title">Suche-Taste</string>
   <string name="hardware_keys_appswitch_key_title">Übersichts Taste</string>
   <string name="hardware_keys_back_key_title">Zurück Taste</string>
-  <string name="hardware_keys_double_tap_summary">Doppeltes Tippen, Aktion setzen</string>
-  <string name="hardware_keys_single_tap_summary">Einfaches Drücken, Aktion setzen</string>
-  <string name="hardware_keys_long_press_summary">Langes Drücken</string>
-  <string name="hardware_keys_single_tap_title">Aktion für Einzel-Tipp</string>
-  <string name="hardware_keys_long_press_title">Langes Drücken</string>
-  <string name="hardware_keys_double_tap_title">Doppeltes Tippen</string>
+  <string name="hardware_keys_double_tap_summary">Doppeltes Tippen (Aktion)</string>
+  <string name="hardware_keys_single_tap_summary">Einfaches Tippen (Aktion)</string>
+  <string name="hardware_keys_long_press_summary">Langes Drücken (Aktion)</string>
+  <string name="hardware_keys_single_tap_title">Einfaches Tippen (Aktion)</string>
+  <string name="hardware_keys_long_press_title">Langes Drücken (Aktion)</string>
+  <string name="hardware_keys_double_tap_title">Doppeltes Tippen (Aktion)</string>
   <string name="hardware_keys_category">Hardware-Tasten</string>
   <string name="hardware_keys_enable_title">Aktivieren</string>
   <!-- UTouch -->

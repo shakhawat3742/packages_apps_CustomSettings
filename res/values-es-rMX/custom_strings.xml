@@ -47,7 +47,7 @@
   <string name="volume_rocker_wake_summary">Los botones de volumen activarán el dispositivo</string>
   <!-- The volume key answer -->
   <string name="volume_answer_call_title">Responder con los botones de volumen</string>
-  <string name="volume_answer_call_summary">Responder la llamada cuando se presionan las teclas de volumen</string>
+  <string name="volume_answer_call_summary">Responder la llamada cuando se presionan los botones de volumen</string>
   <!-- Torch Power button gestures -->
   <string name="torch_power_button_gesture_title">Linterna cuando la pantalla está apagada</string>
   <string name="torch_power_button_gesture_none">Deshabilitado</string>
@@ -59,12 +59,12 @@
   <!-- Buttons backlight timeout -->
   <string name="backlight_timeout_title">Tiempo de espera de la luz de fondo de los botones</string>
   <string name="backlight_timeout_on">Habilitado siempre</string>
-  <string name="backlight_timeout_3s">3 segundos</string>
-  <string name="backlight_timeout_default">5 segundos (predeterminado)</string>
-  <string name="backlight_timeout_10s">10 segundos</string>
-  <string name="backlight_timeout_15s">15 segundos</string>
-  <string name="backlight_timeout_20s">20 segundos</string>
-  <string name="backlight_timeout_30s">30 segundos</string>
+  <string name="backlight_timeout_3s">3 seg</string>
+  <string name="backlight_timeout_default">5 seg (por defecto)</string>
+  <string name="backlight_timeout_10s">10 seg</string>
+  <string name="backlight_timeout_15s">15 seg</string>
+  <string name="backlight_timeout_20s">20 seg</string>
+  <string name="backlight_timeout_30s">30 seg</string>
   <!-- Enable keys backlight-->
   <string name="button_brightness_title">Retroiluminación</string>
   <!-- Enable keys backlight-->

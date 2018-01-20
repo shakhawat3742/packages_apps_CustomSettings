@@ -17,27 +17,152 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Color Picker -->
+  <string name="dialog_color_picker">Вибір кольору</string>
+  <string name="press_color_to_apply">Натисніть на колір для застосування</string>
+  <string name="arrow_right">→</string>
+  <string name="arrow_down">↓</string>
+  <string name="hex">Hex:</string>
+  <string name="hex_hint">#ff000000</string>
+  <string name="set">Встановити</string>
+  <string name="color_default">За замовчуванням</string>
   <!-- Buttons -->
+  <string name="button_settings">Кнопки</string>
   <!-- Volume category -->
+  <string name="volume_category">Регулювання гучності</string>
   <!-- Power category -->
+  <string name="power_category">Живлення</string>
   <!-- Volume category -->
+  <string name="navbar_category">Панель навігації</string>
   <!-- Volume button orientation based on current rotation -->
+  <string name="swap_volume_buttons_title">Поміняти місцями клавіші гучності</string>
+  <string name="swap_volume_buttons_summary">Змінювати функції клавіш регулювання гучності відповідно до орієнтації екрану</string>
   <!-- Volume key controls media stream -->
+  <string name="volume_keys_control_media_stream_title">Клавіші гучності регулюють рівень гучності медіа</string>
+  <string name="volume_keys_control_media_stream_summary">Примусово використовувати клавіші гучності для регулювання гучності медіа</string>
   <!-- Volume rocker music control -->
+  <string name="volume_rocker_music_controls_title">Керування відтворенням</string>
+  <string name="volume_rocker_music_controls_summary">Коли екран вимкнений, тривале натискання клавіш регулювання гучності буде перемикати музичні композиції</string>
   <!-- Volume rocker wake -->
+  <string name="volume_rocker_wake_title">Пробудження клавішами гучності</string>
+  <string name="volume_rocker_wake_summary">Натискання будь-якої клавіші гучності пробудить Ваш пристрій</string>
   <!-- The volume key answer -->
+  <string name="volume_answer_call_title">Відповідь клавішами гучності</string>
+  <string name="volume_answer_call_summary">Відповісти на дзвінок натисканням клавіші гучності</string>
   <!-- Torch Power button gestures -->
+  <string name="torch_power_button_gesture_title">Ліхтарик при вимкн. екрані</string>
+  <string name="torch_power_button_gesture_none">Вимкнено</string>
+  <string name="torch_power_button_gesture_dt">Подвійний дотик</string>
+  <string name="torch_power_button_gesture_lp">Довге натискання</string>
   <!-- Button touch -->
+  <string name="button_backlight_on_touch_only_title">Натискання клавіші</string>
+  <string name="button_backlight_on_touch_only_summary">Вмикати підсвічування клавіш тільки при дотику до кнопки</string>
   <!-- Buttons backlight timeout -->
+  <string name="backlight_timeout_title">Тривалість підсвічування</string>
+  <string name="backlight_timeout_on">Завжди увімкнено</string>
+  <string name="backlight_timeout_3s">3 с</string>
+  <string name="backlight_timeout_default">5 с (типово)</string>
+  <string name="backlight_timeout_10s">10 с</string>
+  <string name="backlight_timeout_15s">15 с</string>
+  <string name="backlight_timeout_20s">20 с</string>
+  <string name="backlight_timeout_30s">30 с</string>
   <!-- Enable keys backlight-->
+  <string name="button_brightness_title">Підсвічування</string>
   <!-- Enable keys backlight-->
+  <string name="button_brightness_sw_title">Увімкнути підсвічування</string>
   <!-- Navbar tuner -->
+  <string name="navbar_tuner_title">Керування панеллю навігації</string>
   <!-- Notification light dialogs -->
+  <string name="ok">Ок</string>
+  <string name="reset">Скинути</string>
+  <string name="advanced">Додатково</string>
+  <string name="profiles_add">Додати...</string>
+  <string name="edit_light_settings">Налаштування LED-індикатора</string>
+  <string name="pulse_speed_title">Тривалість та швидкість блимання</string>
+  <string name="default_time">Звичайно</string>
+  <string name="custom_time">Користувацький</string>
+  <string name="dialog_choose_app">Оберіть додатки</string>
+  <string name="dialog_delete_title">Видалити</string>
+  <string name="dialog_delete_message">Вилучити вибраний елемент?</string>
   <!-- Values for the notification light pulse spinners -->
+  <string name="pulse_length_always_on">Завжди ввімкнено</string>
+  <string name="pulse_length_very_short">Дуже коротко</string>
+  <string name="pulse_length_short">Коротко</string>
+  <string name="pulse_length_normal">Звичайно</string>
+  <string name="pulse_length_long">Довго</string>
+  <string name="pulse_length_very_long">Дуже довго</string>
+  <string name="pulse_speed_very_fast">Дуже швидко</string>
+  <string name="pulse_speed_fast">Швидко</string>
+  <string name="pulse_speed_normal">Звичайно</string>
+  <string name="pulse_speed_slow">Повільно</string>
+  <string name="pulse_speed_very_slow">Дуже повільно</string>
   <!-- Lights settings screen, notification light settings -->
+  <string name="notification_light_title">Індикатор сповіщень</string>
+  <string name="notification_light_title_summary">Увімкнути пульсацію індикатора сповіщень</string>
+  <string name="notification_light_general_title">Загальні</string>
+  <string name="notification_light_applist_title">Додатки</string>
+  <string name="notification_light_phonelist_title">Телефон</string>
+  <string name="notification_light_use_custom">Використовувати власні значення</string>
+  <string name="notification_light_use_custom_summary">Увімкнути для встановлення індивідуального кольору для кожного додатка</string>
+  <string name="notification_light_default_value">Типово</string>
+  <string name="notification_light_missed_call_title">Пропущений виклик</string>
+  <string name="notification_light_voicemail_title">Голосова пошта</string>
+  <string name="notification_light_screen_on">Індикація при увімкненому екрані</string>
+  <string name="notification_light_zen_mode">Індикація в режимі «Не турбувати»</string>
+  <string name="notification_light_use_multiple_leds">Кілька світлодіодів</string>
   <!-- Notification light settings -->
+  <string name="leds_category_title">Параметри світлодіода</string>
+  <string name="battery_light_settings">Індикація батареї</string>
+  <string name="led_notification_title">Налаштування індикатора</string>
+  <string name="led_notification_text">Увімкнути налаштування індикації</string>
+  <string name="notification_light_no_apps_summary">Для дозволу керування додатками увімкніть «%1$s» і натисніть «\u002b» у рядку меню</string>
   <!-- Battery light settings  -->
+  <string name="batterylight_title">Налаштування індикації батареї</string>
+  <string name="battery_light_enable">Увімкнути</string>
+  <string name="battery_low_pulse_title">Блимати при розрядженій батареї</string>
+  <string name="battery_light_only_full_charge_title">Загорятися лише при повністю зарядженій батареї</string>
+  <string name="battery_light_list_title">Кольори</string>
+  <string name="battery_light_low_color_title">Низький заряд батареї</string>
+  <string name="battery_light_medium_color_title">Заряджається</string>
+  <string name="battery_light_full_color_title">Заряджено (90%)</string>
+  <string name="battery_light_really_full_color_title">Заряджено (100%)</string>
+  <string name="led_color_green">Зелений</string>
+  <string name="led_color_red">Червоний</string>
+  <string name="led_color_blue">Блакитний</string>
   <!-- Power Menu -->
+  <string name="powermenu_manage">Налаштування меню живлення</string>
+  <string name="powermenu_reboot_title">Перезавантаження</string>
+  <string name="powermenu_advanced_reboot_title">Розширене меню перезавантаження</string>
+  <string name="powermenu_advanced_reboot_summary">Увімкнути розширене меню перезавантаження для перезапуску у режим відновлення, завантажувач, перезапуску SystemUI, або швидкого перзапуску</string>
+  <string name="powermenu_screenshot_title">Скріншот</string>
+  <string name="powermenu_airplane_title">Режим \"У літаку\"</string>
+  <string name="powermenu_category_other">Інше</string>
+  <string name="powermenu_lockscreen_title">Видимість на екрані блокування</string>
+  <string name="powermenu_lockscreen_summary">Увімкніть для можливості використання меню живлення на екрані блокування</string>
   <!-- HW Keys customization -->
+  <string name="picker_activities">Дії</string>
+  <string name="select_custom_app_title">Вибрати власну програму</string>
+  <string name="select_custom_activity_title">Вибрати дію користувача</string>
+  <string name="profile_applist_title">Додатки</string>
+  <string name="choose_action_title">Вибрати дію</string>
+  <string name="action_entry_default_action">Типові налаштування</string>
+  <string name="action_entry_select_app">Виберіть додаток</string>
+  <string name="action_entry_custom_action">Виберіть власну дію</string>
+  <string name="hardware_keys_home_key_title">Кнопка \"Додому\"</string>
+  <string name="hardware_keys_menu_key_title">Кнопка «Меню»</string>
+  <string name="hardware_keys_assist_key_title">Кнопка «Пошук»</string>
+  <string name="hardware_keys_appswitch_key_title">Кнопка \"Огляд\"</string>
+  <string name="hardware_keys_back_key_title">Кнопка «Назад»</string>
+  <string name="hardware_keys_double_tap_summary">Задати дію подвійного натискання</string>
+  <string name="hardware_keys_single_tap_summary">Задати дію одинарного натискання</string>
+  <string name="hardware_keys_long_press_summary">Задати дію тривалого натискання</string>
+  <string name="hardware_keys_single_tap_title">Дія одинарного натискання</string>
+  <string name="hardware_keys_long_press_title">Дії тривалого натискання</string>
+  <string name="hardware_keys_double_tap_title">Подвійне натискання</string>
+  <string name="hardware_keys_category">Апаратні кнопки</string>
+  <string name="hardware_keys_enable_title">Увімкнути</string>
   <!-- UTouch -->
+  <string name="hardware_keys_utouch_left_swipe">Свайп вліво</string>
+  <string name="hardware_keys_utouch_right_swipe">Свайп вправо</string>
+  <string name="hardware_keys_utouch_single_tap">Дотик</string>
+  <string name="hardware_keys_utouch_long_tap">Довгий дотик</string>
 </resources>

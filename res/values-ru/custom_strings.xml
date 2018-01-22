@@ -18,7 +18,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Color Picker -->
   <string name="dialog_color_picker">Палитра</string>
-  <string name="press_color_to_apply">Нажмите на цвет для применения</string>
+  <string name="press_color_to_apply">Нажмите на цвет снизу для применения</string>
   <string name="arrow_right">→</string>
   <string name="arrow_down">↓</string>
   <string name="hex">Hex:</string>
@@ -43,21 +43,21 @@
   <string name="volume_rocker_music_controls_title">Управление воспроизведением</string>
   <string name="volume_rocker_music_controls_summary">Когда экран выключен, долгое нажатие кнопок громкости переключает музыкальные треки</string>
   <!-- Volume rocker wake -->
-  <string name="volume_rocker_wake_title">Пробуждение кнопками громкости</string>
-  <string name="volume_rocker_wake_summary">Использовать клавиши громкости, для включения экрана</string>
+  <string name="volume_rocker_wake_title">Включение экрана кнопками громкости</string>
+  <string name="volume_rocker_wake_summary">Нажатие клавиш громкости будет включать экран</string>
   <!-- The volume key answer -->
   <string name="volume_answer_call_title">Ответ на звонок кнопками увеличения громкости</string>
   <string name="volume_answer_call_summary">Ответ на звонок, когда нажата кнопка громкости</string>
   <!-- Torch Power button gestures -->
   <string name="torch_power_button_gesture_title">Фонарик при выкл. экране</string>
-  <string name="torch_power_button_gesture_none">Выключена</string>
+  <string name="torch_power_button_gesture_none">Выключен</string>
   <string name="torch_power_button_gesture_dt">Двойное касание</string>
-  <string name="torch_power_button_gesture_lp">Длительное нажатие</string>
+  <string name="torch_power_button_gesture_lp">Долгое нажатие</string>
   <!-- Button touch -->
-  <string name="button_backlight_on_touch_only_title">Подсветка при касании</string>
+  <string name="button_backlight_on_touch_only_title">Касание кнопок</string>
   <string name="button_backlight_on_touch_only_summary">Включать подсветку клавиш только при касании</string>
   <!-- Buttons backlight timeout -->
-  <string name="backlight_timeout_title">Длительность подсветки</string>
+  <string name="backlight_timeout_title">Длительность подсветки клавиш</string>
   <string name="backlight_timeout_on">Включена всегда</string>
   <string name="backlight_timeout_3s">3 сек.</string>
   <string name="backlight_timeout_default">5 сек. (по умолчанию)</string>
@@ -68,7 +68,7 @@
   <!-- Enable keys backlight-->
   <string name="button_brightness_title">Подсветка</string>
   <!-- Enable keys backlight-->
-  <string name="button_brightness_sw_title">Подсветка включена</string>
+  <string name="button_brightness_sw_title">Включить подсветку</string>
   <!-- Navbar tuner -->
   <string name="navbar_tuner_title">Управление панелью навигации</string>
   <!-- Notification light dialogs -->

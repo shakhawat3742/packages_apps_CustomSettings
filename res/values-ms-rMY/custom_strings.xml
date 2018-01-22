@@ -17,27 +17,133 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Color Picker -->
+  <string name="dialog_color_picker">Pemilih Warna</string>
+  <string name="press_color_to_apply">Tekan pada warna di bawah untuk memilih</string>
+  <string name="arrow_right">→</string>
+  <string name="arrow_down">↓</string>
+  <string name="hex">Hex:</string>
+  <string name="hex_hint">#ff000000</string>
+  <string name="set">Tetapkan</string>
+  <string name="color_default">Lalai</string>
   <!-- Buttons -->
+  <string name="button_settings">Butang</string>
   <!-- Volume category -->
+  <string name="volume_category">Pemilih kekuatan suara</string>
   <!-- Power category -->
+  <string name="power_category">Kuasa</string>
   <!-- Volume category -->
+  <string name="navbar_category">Bar navigasi</string>
   <!-- Volume button orientation based on current rotation -->
+  <string name="swap_volume_buttons_title">Tukar orientasi pemilih kelantangan suara</string>
+  <string name="swap_volume_buttons_summary">Laraskan orientasi pemilih kelantangan suara berdasarkan rotasi semasa</string>
   <!-- Volume key controls media stream -->
+  <string name="volume_keys_control_media_stream_title">Butang suara kawal suara media</string>
+  <string name="volume_keys_control_media_stream_summary">Paksa butang suara untuk mengawal aliran medisa</string>
   <!-- Volume rocker music control -->
+  <string name="volume_rocker_music_controls_title">Kawalan pemain</string>
+  <string name="volume_rocker_music_controls_summary">Bila skrin ditutup, menekan butang kawalan kelantangan suara akan mencari trek music</string>
   <!-- Volume rocker wake -->
+  <string name="volume_rocker_wake_title">Bangun dari butang kelantangan suara</string>
+  <string name="volume_rocker_wake_summary">Menekan butang kelantangan suara akan bangunkan peranti anda</string>
   <!-- The volume key answer -->
+  <string name="volume_answer_call_title">Butang kelantangan untuk menjawab</string>
+  <string name="volume_answer_call_summary">Menjawab panggilan apabila butang kelantangan suara ditekan</string>
   <!-- Torch Power button gestures -->
+  <string name="torch_power_button_gesture_title">Lampu suluh apabila skrin dimatikan</string>
+  <string name="torch_power_button_gesture_none">Dimatikan</string>
+  <string name="torch_power_button_gesture_dt">Tekan dua kali</string>
+  <string name="torch_power_button_gesture_lp">Tekan lama-lama</string>
   <!-- Button touch -->
+  <string name="button_backlight_on_touch_only_title">Butang sentuh</string>
+  <string name="button_backlight_on_touch_only_summary">Benarkan backlight dengan masa tamat bila butang ditekan sahaja</string>
   <!-- Buttons backlight timeout -->
+  <string name="backlight_timeout_title">Masa tamat butang backlight</string>
+  <string name="backlight_timeout_on">Sentiasa dibenarkan</string>
+  <string name="backlight_timeout_3s">3 saat</string>
+  <string name="backlight_timeout_default">5 saat (lalai)</string>
+  <string name="backlight_timeout_10s">10 saat</string>
+  <string name="backlight_timeout_15s">15 saat</string>
+  <string name="backlight_timeout_20s">20 saat</string>
+  <string name="backlight_timeout_30s">30 saat</string>
   <!-- Enable keys backlight-->
+  <string name="button_brightness_title">Backlight</string>
   <!-- Enable keys backlight-->
+  <string name="button_brightness_sw_title">Aktifkan Backlight</string>
   <!-- Navbar tuner -->
+  <string name="navbar_tuner_title">Uruskan bar navigasi</string>
   <!-- Notification light dialogs -->
+  <string name="ok">Okay</string>
+  <string name="reset">Tetapkan semula</string>
+  <string name="advanced">Selanjutnya</string>
+  <string name="profiles_add">Tambah...</string>
+  <string name="edit_light_settings">Ubah seting lampu</string>
+  <string name="pulse_speed_title">Masa dan kelajuan kelipan</string>
+  <string name="default_time">Normal</string>
+  <string name="custom_time">Tersuai</string>
+  <string name="dialog_choose_app">Pilih aplikasi</string>
+  <string name="dialog_delete_title">Padam</string>
+  <string name="dialog_delete_message">Padamkan yang dipilih?</string>
   <!-- Values for the notification light pulse spinners -->
+  <string name="pulse_length_always_on">Sentiasa hidup</string>
+  <string name="pulse_length_very_short">Sangat pendek</string>
+  <string name="pulse_length_short">Pendek</string>
+  <string name="pulse_length_normal">Normal</string>
+  <string name="pulse_length_long">Panjang</string>
+  <string name="pulse_length_very_long">Sangat panjang</string>
+  <string name="pulse_speed_very_fast">Sangat cepat</string>
+  <string name="pulse_speed_fast">Cepat</string>
+  <string name="pulse_speed_normal">Normal</string>
+  <string name="pulse_speed_slow">Perlahan</string>
+  <string name="pulse_speed_very_slow">Sangat perlahan</string>
   <!-- Lights settings screen, notification light settings -->
+  <string name="notification_light_title">Lampu notifikasi</string>
+  <string name="notification_light_title_summary">Benarkan LED notifikasi berkelip</string>
+  <string name="notification_light_general_title">Umum</string>
+  <string name="notification_light_applist_title">Aplikasi</string>
+  <string name="notification_light_phonelist_title">Telefon</string>
+  <string name="notification_light_use_custom">Gunakan nilai tersuai</string>
+  <string name="notification_light_use_custom_summary">Membenarkan untuk menetapkan warna notifikasi per aplikasi</string>
+  <string name="notification_light_default_value">Lalai</string>
+  <string name="notification_light_missed_call_title">Panggilan tidak dijawab</string>
+  <string name="notification_light_voicemail_title">Mel suara</string>
+  <string name="notification_light_screen_on">Lampu dengan skrin aktif</string>
+  <string name="notification_light_zen_mode">Lampu dalam Mod Janggan Ganggu</string>
+  <string name="notification_light_use_multiple_leds">Pelbagai LED</string>
   <!-- Notification light settings -->
+  <string name="leds_category_title">Pilihan LED</string>
+  <string name="battery_light_settings">Lampu Batteri</string>
+  <string name="led_notification_title">Seting cahaya</string>
+  <string name="led_notification_text">Lampu LED diaktifkan oleh seting</string>
+  <string name="notification_light_no_apps_summary">Untuk menambah kawalan per aplikasi, aktifkan \'%1$s\' dan tekan \'\u002b\' pada menu bar</string>
   <!-- Battery light settings  -->
+  <string name="batterylight_title">Seting LED Batteri</string>
+  <string name="battery_light_enable">Dibenarkan</string>
+  <string name="battery_low_pulse_title">Kelip jika bateri rendah</string>
+  <string name="battery_light_only_full_charge_title">Hanya menyala apabila dicas sepenuhnya</string>
+  <string name="battery_light_list_title">Warna</string>
+  <string name="battery_light_low_color_title">Bateri lemah</string>
+  <string name="battery_light_medium_color_title">Mengecas</string>
+  <string name="battery_light_full_color_title">Dicas (90%)</string>
+  <string name="battery_light_really_full_color_title">Dicas (100%)</string>
+  <string name="led_color_green">Hijau</string>
+  <string name="led_color_red">Merah</string>
+  <string name="led_color_blue">Biru</string>
   <!-- Power Menu -->
+  <string name="powermenu_manage">Uruskan menu kuasa</string>
+  <string name="powermenu_reboot_title">Boot semula</string>
+  <string name="powermenu_advanced_reboot_title">Boot semula selanjutnya</string>
+  <string name="powermenu_advanced_reboot_summary">Membenarkan menu boot semula selanjutnya untuk pilihan boot semula ke recover, bootloader, systemui atau cetuskan boot semula pantas</string>
+  <string name="powermenu_screenshot_title">Tangkapan skrin</string>
+  <string name="powermenu_airplane_title">Mod kapal terbang</string>
+  <string name="powermenu_category_other">Lain-lain</string>
   <!-- HW Keys customization -->
+  <string name="picker_activities">Aktiviti</string>
+  <string name="profile_applist_title">Aplikasi</string>
+  <string name="choose_action_title">Pilih tindakan</string>
+  <string name="action_entry_select_app">Pilih aplikasi</string>
+  <string name="hardware_keys_home_key_title">Butang rumah</string>
+  <string name="hardware_keys_menu_key_title">Butang menu</string>
+  <string name="hardware_keys_assist_key_title">Butang Cari</string>
+  <string name="hardware_keys_back_key_title">Butang kembali</string>
   <!-- UTouch -->
 </resources>

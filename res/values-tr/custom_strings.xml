@@ -23,7 +23,7 @@
   <string name="arrow_down">↓</string>
   <string name="hex">Hex:</string>
   <string name="hex_hint">#ff000000</string>
-  <string name="set">Uygula</string>
+  <string name="set">Ayarla</string>
   <string name="color_default">Varsayılan</string>
   <!-- Buttons -->
   <string name="button_settings">Tuşlar</string>
@@ -80,7 +80,7 @@
   <string name="pulse_speed_title">Yanıp sönme aralığının uzunluğu ve süresi</string>
   <string name="default_time">Normal</string>
   <string name="custom_time">Özel</string>
-  <string name="dialog_choose_app">Uygulamayı seç</string>
+  <string name="dialog_choose_app">Uygulama seç</string>
   <string name="dialog_delete_title">Sil</string>
   <string name="dialog_delete_message">Seçili öğe kaldırılsın mı?</string>
   <!-- Values for the notification light pulse spinners -->
@@ -107,7 +107,7 @@
   <string name="notification_light_missed_call_title">Cevapsız arama</string>
   <string name="notification_light_voicemail_title">Sesli mesaj</string>
   <string name="notification_light_screen_on">Ekran açıkken ışıklar açılır</string>
-  <string name="notification_light_zen_mode">Işıklar rahatsız etmeyin modunda</string>
+  <string name="notification_light_zen_mode">Rahatsız etmeyin modunda ışıklar</string>
   <string name="notification_light_use_multiple_leds">Çoklu LED\'ler</string>
   <!-- Notification light settings -->
   <string name="leds_category_title">LED seçenekleri</string>

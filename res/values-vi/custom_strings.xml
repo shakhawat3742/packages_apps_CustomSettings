@@ -21,9 +21,9 @@
   <string name="press_color_to_apply">Bấm vào màu sắc dưới đây để áp dụng</string>
   <string name="arrow_right">→</string>
   <string name="arrow_down">↓</string>
-  <string name="hex">Hex:</string>
+  <string name="hex">HEX:</string>
   <string name="hex_hint">#ff000000</string>
-  <string name="set">Đặt</string>
+  <string name="set">Thiết lập</string>
   <string name="color_default">Mặc định</string>
   <!-- Buttons -->
   <string name="button_settings">Phím</string>
@@ -34,14 +34,14 @@
   <!-- Volume category -->
   <string name="navbar_category">Thanh điều hướng</string>
   <!-- Volume button orientation based on current rotation -->
-  <string name="swap_volume_buttons_title">Chuyển đổi định hướng cân bằng âm lượng </string>
-  <string name="swap_volume_buttons_summary">Điều chỉnh hướng cân bằng dựa vào xoay</string>
+  <string name="swap_volume_buttons_title">Đảo vị trí nút âm lượng</string>
+  <string name="swap_volume_buttons_summary">Đảo chiều nút âm lượng theo khi xoay máy</string>
   <!-- Volume key controls media stream -->
   <string name="volume_keys_control_media_stream_title">Phím âm lượng điều khiển âm lượng phương tiện</string>
   <string name="volume_keys_control_media_stream_summary">Luôn dùng nút âm lượng để điều khiển các phương tiện truyền thông</string>
   <!-- Volume rocker music control -->
   <string name="volume_rocker_music_controls_title">Điều khiển nhạc</string>
-  <string name="volume_rocker_music_controls_summary">Khi màn hình tắt, nhấn giữ các nút âm lượng sẽ chuyển bài</string>
+  <string name="volume_rocker_music_controls_summary">Khi màn hình tắt, nhấn giữ các nút âm lượng chuyển bài</string>
   <!-- Volume rocker wake -->
   <string name="volume_rocker_wake_title">Mở khoá bằng phím âm lượng</string>
   <string name="volume_rocker_wake_summary">Nhấn nút âm lượng để mở thiết bị của bạn</string>
@@ -77,6 +77,7 @@
   <string name="advanced">Nâng cao</string>
   <string name="profiles_add">Thêm...</string>
   <string name="edit_light_settings">Chỉnh sửa cài đặt ánh sáng</string>
+  <string name="pulse_speed_title">Thời gian và cường độ rung</string>
   <string name="default_time">Mặc định</string>
   <string name="custom_time">Tùy chỉnh</string>
   <string name="dialog_choose_app">Chọn ứng dụng</string>
@@ -113,6 +114,7 @@
   <string name="battery_light_settings">Đèn pin</string>
   <string name="led_notification_title">Cài đặt ánh sáng</string>
   <string name="led_notification_text">Bật đèn LED theo cài đặt</string>
+  <string name="notification_light_no_apps_summary">Thêm một ứng dụng ấn giữ  \'%1$s\' và bấm \'\u002b\' trên thanh trình đơn</string>
   <!-- Battery light settings  -->
   <string name="batterylight_title">Cài đặt đèn pin</string>
   <string name="battery_light_enable">Bật</string>
@@ -135,6 +137,7 @@
   <string name="powermenu_airplane_title">Chế độ máy bay</string>
   <string name="powermenu_category_other">Khác</string>
   <string name="powermenu_lockscreen_title">Khả năng hiển thị màn hình khóa</string>
+  <string name="powermenu_lockscreen_summary">Bật khả năng hiển thị và sử dụng hộp thoại trình đơn nguồn trong khi trên màn hình khóa</string>
   <!-- HW Keys customization -->
   <string name="picker_activities">Kích hoạt</string>
   <string name="select_custom_app_title">Chọn ứng dụng tùy chỉnh</string>

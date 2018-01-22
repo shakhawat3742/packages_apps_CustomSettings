@@ -17,20 +17,43 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Color Picker -->
+  <string name="dialog_color_picker">നിറം തിരഞ്ഞെടുക്കാം</string>
+  <string name="press_color_to_apply">താഴെയുള്ള നിറം തിരഞ്ഞെടുക്കുക</string>
+  <string name="arrow_right">→</string>
+  <string name="arrow_down">↓</string>
+  <string name="hex">Hex:</string>
+  <string name="hex_hint">#ff000000</string>
+  <string name="set">സെറ്റ്</string>
+  <string name="color_default">സാധാരണ പോലെ</string>
   <!-- Buttons -->
+  <string name="button_settings">ബട്ടൺസ്</string>
   <!-- Volume category -->
+  <string name="volume_category">ഉയർന്ന ശബ്ദം</string>
   <!-- Power category -->
+  <string name="power_category">പവർ</string>
   <!-- Volume category -->
+  <string name="navbar_category">നാവിഗേഷൻ ബാർ</string>
   <!-- Volume button orientation based on current rotation -->
   <!-- Volume key controls media stream -->
   <!-- Volume rocker music control -->
   <!-- Volume rocker wake -->
   <!-- The volume key answer -->
   <!-- Torch Power button gestures -->
+  <string name="torch_power_button_gesture_none">പ്രവര്‍ത്തന രഹിതമാക്കുക</string>
+  <string name="torch_power_button_gesture_dt">രണ്ടു പ്രാവശ്യം അമർത്തുക</string>
+  <string name="torch_power_button_gesture_lp">അമർത്തി പിടിക്കുക</string>
   <!-- Button touch -->
   <!-- Buttons backlight timeout -->
+  <string name="backlight_timeout_3s">മൂന്ന് സെക്കന്റ്‌</string>
+  <string name="backlight_timeout_default">അഞ്ച് സെക്കന്റ്‌ (സാദാരണം)</string>
+  <string name="backlight_timeout_10s">പത്ത് സെക്കന്റ്‌</string>
+  <string name="backlight_timeout_15s">പതിനഞ്ച് സെക്കന്റ്‌</string>
+  <string name="backlight_timeout_20s">ഇരുപത് സെക്കന്റ്‌</string>
+  <string name="backlight_timeout_30s">മുപ്പത് സെക്കന്റ്‌</string>
   <!-- Enable keys backlight-->
+  <string name="button_brightness_title">ബാക്ക്‌ലൈറ്റ്</string>
   <!-- Enable keys backlight-->
+  <string name="button_brightness_sw_title">ബാക്ക്‌ലൈറ്റ് പ്രവതിപ്പിക്കുക</string>
   <!-- Navbar tuner -->
   <!-- Notification light dialogs -->
   <!-- Values for the notification light pulse spinners -->

@@ -165,4 +165,5 @@
   <string name="hardware_keys_utouch_right_swipe">Deslizar para a direita</string>
   <string name="hardware_keys_utouch_single_tap">Toque</string>
   <string name="hardware_keys_utouch_long_tap">Toque longo</string>
+  <!-- Ambient music -->
 </resources>

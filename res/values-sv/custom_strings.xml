@@ -165,4 +165,5 @@
   <string name="hardware_keys_utouch_right_swipe">Svep höger</string>
   <string name="hardware_keys_utouch_single_tap">Tryck</string>
   <string name="hardware_keys_utouch_long_tap">Långtryck</string>
+  <!-- Ambient music -->
 </resources>

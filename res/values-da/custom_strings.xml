@@ -96,4 +96,5 @@
   <string name="hardware_keys_enable_title">Aktiver</string>
   <!-- UTouch -->
   <string name="hardware_keys_utouch_left_swipe">Swipe til venstre</string>
+  <!-- Ambient music -->
 </resources>

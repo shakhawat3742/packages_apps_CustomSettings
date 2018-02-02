@@ -57,6 +57,7 @@
   <string name="button_backlight_on_touch_only_title">Knopaanraking</string>
   <string name="button_backlight_on_touch_only_summary">Inschakelen achtergrondverlichting met timeout als knop wordt aangeraakt</string>
   <!-- Buttons backlight timeout -->
+  <string name="backlight_timeout_on">Altijd ingeschakeld</string>
   <string name="backlight_timeout_3s">3 seconden</string>
   <string name="backlight_timeout_default">5 seconden (standaard)</string>
   <string name="backlight_timeout_10s">10 seconden</string>
@@ -95,6 +96,7 @@
   <string name="pulse_speed_very_slow">Zeer langzaam</string>
   <!-- Lights settings screen, notification light settings -->
   <string name="notification_light_title">Meldingsled</string>
+  <string name="notification_light_title_summary">Pulserende notificatie LED aanzetten</string>
   <string name="notification_light_general_title">Algemeen</string>
   <string name="notification_light_applist_title">Apps</string>
   <string name="notification_light_phonelist_title">Telefoon</string>
@@ -125,7 +127,21 @@
   <string name="led_color_red">Rood</string>
   <string name="led_color_blue">Blauw</string>
   <!-- Power Menu -->
+  <string name="powermenu_reboot_title">Herstarten</string>
+  <string name="powermenu_advanced_reboot_title">Geavanceerd herstarten</string>
+  <string name="powermenu_screenshot_title">Schermafbeelding</string>
+  <string name="powermenu_airplane_title">Vliegtuig modus</string>
+  <string name="powermenu_category_other">Andere</string>
+  <string name="powermenu_lockscreen_title">Vergrendelscherm zichtbaarheid</string>
   <!-- HW Keys customization -->
+  <string name="picker_activities">Activiteiten</string>
+  <string name="select_custom_app_title">Aangepaste app kiezen</string>
+  <string name="select_custom_activity_title">Aangepaste activiteit kiezen</string>
+  <string name="profile_applist_title">Applicaties</string>
+  <string name="choose_action_title">Actie kiezen</string>
+  <string name="action_entry_default_action">Standaard instellingen</string>
+  <string name="action_entry_select_app">Applicatie selecteren</string>
+  <string name="action_entry_custom_action">Aangepaste actie selecteren</string>
   <string name="hardware_keys_home_key_title">Thuisknop</string>
   <string name="hardware_keys_menu_key_title">Menuknop</string>
   <string name="hardware_keys_assist_key_title">Zoekknop</string>
@@ -144,4 +160,5 @@
   <string name="hardware_keys_utouch_right_swipe">Naar rechts vegen</string>
   <string name="hardware_keys_utouch_single_tap">Tik</string>
   <string name="hardware_keys_utouch_long_tap">Lang aanraken</string>
+  <!-- Ambient music -->
 </resources>

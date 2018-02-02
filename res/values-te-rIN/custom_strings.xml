@@ -165,4 +165,5 @@
   <string name="hardware_keys_utouch_right_swipe">కుడి వైపు</string>
   <string name="hardware_keys_utouch_single_tap">టాప్</string>
   <string name="hardware_keys_utouch_long_tap">లాంగ్ ట్యాప్</string>
+  <!-- Ambient music -->
 </resources>

@@ -43,4 +43,5 @@
   <string name="hardware_keys_utouch_left_swipe">左スワイプ</string>
   <string name="hardware_keys_utouch_right_swipe">右スワイプ</string>
   <string name="hardware_keys_utouch_long_tap">長押し</string>
+  <!-- Ambient music -->
 </resources>

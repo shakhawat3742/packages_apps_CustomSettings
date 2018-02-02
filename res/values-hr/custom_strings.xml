@@ -135,4 +135,5 @@
   <string name="hardware_keys_utouch_right_swipe">Povlačenje udesno</string>
   <string name="hardware_keys_utouch_single_tap">Dodir</string>
   <string name="hardware_keys_utouch_long_tap">Dugi dodir</string>
+  <!-- Ambient music -->
 </resources>

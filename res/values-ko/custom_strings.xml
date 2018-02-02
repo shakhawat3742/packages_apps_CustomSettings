@@ -17,31 +17,142 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Color Picker -->
+  <string name="dialog_color_picker">색상 선택기</string>
+  <string name="press_color_to_apply">적용할 색상을 아래에서 선택하세요</string>
   <string name="arrow_right">→</string>
   <string name="arrow_down">↓</string>
   <string name="hex">16진수:</string>
   <string name="hex_hint">#ff000000</string>
+  <string name="set">설정</string>
+  <string name="color_default">기본값</string>
   <!-- Buttons -->
+  <string name="button_settings">버튼</string>
   <!-- Volume category -->
+  <string name="volume_category">볼륨 버튼</string>
   <!-- Power category -->
+  <string name="power_category">전원</string>
   <!-- Volume category -->
+  <string name="navbar_category">소프트 키</string>
   <!-- Volume button orientation based on current rotation -->
   <!-- Volume key controls media stream -->
+  <string name="volume_keys_control_media_stream_title">볼륨 버튼으로 미디어 음량 조절</string>
   <!-- Volume rocker music control -->
+  <string name="volume_rocker_music_controls_title">재생 컨트롤</string>
+  <string name="volume_rocker_music_controls_summary">화면이 꺼져있을 때 볼륨버튼을 길게 눌러 음악을 탐색</string>
   <!-- Volume rocker wake -->
+  <string name="volume_rocker_wake_title">볼륨 버튼으로 켜기</string>
+  <string name="volume_rocker_wake_summary">볼륨 버튼을 눌러서 기기를 켭니다</string>
   <!-- The volume key answer -->
+  <string name="volume_answer_call_summary">볼륨 버튼을 눌러서 전화 받기</string>
   <!-- Torch Power button gestures -->
+  <string name="torch_power_button_gesture_title">화면이 꺼져 있을 때 손전등</string>
+  <string name="torch_power_button_gesture_none">비활성화됨</string>
+  <string name="torch_power_button_gesture_dt">더블 탭</string>
+  <string name="torch_power_button_gesture_lp">길게 누르기</string>
   <!-- Button touch -->
+  <string name="button_backlight_on_touch_only_title">버튼 터치</string>
+  <string name="button_backlight_on_touch_only_summary">버튼을 터치할 때만 잠깐 백라이트를 켭니다.</string>
   <!-- Buttons backlight timeout -->
+  <string name="backlight_timeout_title">버튼 백라이트 시간 제한</string>
+  <string name="backlight_timeout_3s">3초</string>
+  <string name="backlight_timeout_default">5초(기본)</string>
+  <string name="backlight_timeout_10s">10초</string>
+  <string name="backlight_timeout_15s">15초</string>
+  <string name="backlight_timeout_20s">20초</string>
+  <string name="backlight_timeout_30s">30초</string>
   <!-- Enable keys backlight-->
+  <string name="button_brightness_title">백라이트</string>
   <!-- Enable keys backlight-->
+  <string name="button_brightness_sw_title">백라이트 활성화</string>
   <!-- Navbar tuner -->
+  <string name="navbar_tuner_title">내비게이션 바 관리</string>
   <!-- Notification light dialogs -->
+  <string name="ok">확인</string>
+  <string name="reset">초기화</string>
+  <string name="advanced">고급</string>
+  <string name="profiles_add">추가</string>
+  <string name="edit_light_settings">조명 설정 변경</string>
+  <string name="default_time">일반</string>
+  <string name="custom_time">사용자 지정</string>
+  <string name="dialog_choose_app">앱 선택</string>
+  <string name="dialog_delete_title">삭제</string>
+  <string name="dialog_delete_message">선택한 항목을 삭제하시겠습니까?</string>
   <!-- Values for the notification light pulse spinners -->
+  <string name="pulse_length_very_short">매우 짧게</string>
+  <string name="pulse_length_short">짧게</string>
+  <string name="pulse_length_normal">보통</string>
+  <string name="pulse_length_long">길게</string>
+  <string name="pulse_length_very_long">매우 길게</string>
+  <string name="pulse_speed_very_fast">매우 빠르게</string>
+  <string name="pulse_speed_fast">빠르게</string>
+  <string name="pulse_speed_normal">보통</string>
+  <string name="pulse_speed_slow">느리게</string>
+  <string name="pulse_speed_very_slow">매우 느리게</string>
   <!-- Lights settings screen, notification light settings -->
+  <string name="notification_light_title">알림 표시등</string>
+  <string name="notification_light_title_summary">알림 LED 깜박임 활성화</string>
+  <string name="notification_light_general_title">일반</string>
+  <string name="notification_light_applist_title">앱</string>
+  <string name="notification_light_phonelist_title">전화</string>
+  <string name="notification_light_use_custom">사용자 지정 값 사용</string>
+  <string name="notification_light_use_custom_summary">앱 별 알림 색상 설정 활성화</string>
+  <string name="notification_light_default_value">기본</string>
+  <string name="notification_light_missed_call_title">부재중 전화</string>
+  <string name="notification_light_voicemail_title">음성 메시지</string>
+  <string name="notification_light_screen_on">화면이 켜진 상태에서 표시등 사용</string>
+  <string name="notification_light_zen_mode">방해 금지 모드에서 표시등 사용</string>
+  <string name="notification_light_use_multiple_leds">다중 LED</string>
   <!-- Notification light settings -->
+  <string name="leds_category_title">LED 옵션</string>
+  <string name="battery_light_settings">배터리 표시등</string>
+  <string name="led_notification_title">조명 설정</string>
+  <string name="led_notification_text">설정 앱이 LED 표시등을 활성화함</string>
+  <string name="notification_light_no_apps_summary">앱 별 컨트롤을 추가하려면 \'%1$s\'을(를) 활성화하고 메뉴 바에서 \'\u002b\'을(를) 누르세요</string>
   <!-- Battery light settings  -->
+  <string name="batterylight_title">배터리 LED 설정</string>
+  <string name="battery_light_enable">활성화</string>
+  <string name="battery_low_pulse_title">배터리가 적을 때 깜빡임</string>
+  <string name="battery_light_only_full_charge_title">완전히 충전되었을 때만 빛남</string>
+  <string name="battery_light_list_title">색상</string>
+  <string name="battery_light_low_color_title">배터리가 적을 때</string>
+  <string name="battery_light_medium_color_title">충전 중</string>
+  <string name="battery_light_full_color_title">충전됨 (90%)</string>
+  <string name="battery_light_really_full_color_title">충전됨 (100%)</string>
+  <string name="led_color_green">초록</string>
+  <string name="led_color_red">빨강</string>
+  <string name="led_color_blue">파랑</string>
   <!-- Power Menu -->
+  <string name="powermenu_manage">전원 메뉴 관리</string>
+  <string name="powermenu_reboot_title">다시 시작</string>
+  <string name="powermenu_advanced_reboot_title">고급 재시작</string>
+  <string name="powermenu_screenshot_title">스크린샷</string>
+  <string name="powermenu_airplane_title">비행기 모드</string>
+  <string name="powermenu_category_other">기타</string>
   <!-- HW Keys customization -->
+  <string name="select_custom_app_title">사용자 정의 앱 선택</string>
+  <string name="select_custom_activity_title">사용자 지정 활동 선택</string>
+  <string name="profile_applist_title">애플리케이션</string>
+  <string name="choose_action_title">동작 선택</string>
+  <string name="action_entry_default_action">기본 설정</string>
+  <string name="action_entry_select_app">애플리케이션 선택</string>
+  <string name="action_entry_custom_action">사용자 지정 작업 선택</string>
+  <string name="hardware_keys_home_key_title">홈 버튼</string>
+  <string name="hardware_keys_menu_key_title">메뉴 버튼</string>
+  <string name="hardware_keys_assist_key_title">검색 버튼</string>
+  <string name="hardware_keys_appswitch_key_title">최근 앱 목록 버튼</string>
+  <string name="hardware_keys_back_key_title">뒤로 가기 버튼</string>
+  <string name="hardware_keys_double_tap_summary">두 번 탭했을 때의 동작 설정</string>
+  <string name="hardware_keys_single_tap_summary">한 번 탭했을 때의 동작 설정</string>
+  <string name="hardware_keys_long_press_summary">길게 누를 때의 동작 설정</string>
+  <string name="hardware_keys_single_tap_title">한 번 탭했을 때의 동작</string>
+  <string name="hardware_keys_long_press_title">길게 누를 시 동작</string>
+  <string name="hardware_keys_double_tap_title">두 번 탭했을 때의 동작</string>
+  <string name="hardware_keys_category">물리 키</string>
+  <string name="hardware_keys_enable_title">활성화</string>
   <!-- UTouch -->
+  <string name="hardware_keys_utouch_left_swipe">왼쪽으로 스와이프</string>
+  <string name="hardware_keys_utouch_right_swipe">오른쪽으로 스와이프</string>
+  <string name="hardware_keys_utouch_single_tap">탭</string>
+  <string name="hardware_keys_utouch_long_tap">긴 탭</string>
+  <!-- Ambient music -->
 </resources>

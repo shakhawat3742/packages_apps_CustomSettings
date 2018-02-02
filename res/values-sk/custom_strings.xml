@@ -24,7 +24,7 @@
   <string name="hex">Hex:</string>
   <string name="hex_hint">#ff000000</string>
   <string name="set">Nastaviť</string>
-  <string name="color_default">Predvolené</string>
+  <string name="color_default">Predvolená</string>
   <!-- Buttons -->
   <string name="button_settings">Tlačidlá</string>
   <!-- Volume category -->
@@ -35,7 +35,7 @@
   <string name="navbar_category">Navigačný panel</string>
   <!-- Volume button orientation based on current rotation -->
   <string name="swap_volume_buttons_title">Prehodiť orientáciu tlačidiel hlasitosti</string>
-  <string name="swap_volume_buttons_summary">Nastavte orientáciu tlačidiel hlasitosti podľa aktuálneho otočenie</string>
+  <string name="swap_volume_buttons_summary">Nastavte orientáciu tlačidiel hlasitosti podľa aktuálneho otočenia</string>
   <!-- Volume key controls media stream -->
   <string name="volume_keys_control_media_stream_title">Tlačidlá hlasitosti ovládajú hlasitosť médií</string>
   <string name="volume_keys_control_media_stream_summary">Tlačidlá hlasitosti slúžia pre nastavenie hlasitosti multimédií</string>
@@ -44,14 +44,14 @@
   <string name="volume_rocker_music_controls_summary">Keď je vypnutá obrazovka, prepínať skladby dlhým stlačením tlačidiel pre ovládanie hlasitosti</string>
   <!-- Volume rocker wake -->
   <string name="volume_rocker_wake_title">Prebudenie tlačidlami hlasitosti</string>
-  <string name="volume_rocker_wake_summary">Prebudiť z režimu spánku stlačením tlačidiel pre ovládanie hlasitosti</string>
+  <string name="volume_rocker_wake_summary">Stlačenie tlačidiel hlasitosti prebudí vaše zariadenie</string>
   <!-- The volume key answer -->
-  <string name="volume_answer_call_title">Prijať hovor tlačidlom hlasitosti</string>
-  <string name="volume_answer_call_summary">Prijatie hovoru pri stlačení tlačidiel hlasitosti</string>
+  <string name="volume_answer_call_title">Prijať hovor tlačidlami hlasitosti</string>
+  <string name="volume_answer_call_summary">Prijatie hovoru stlačením tlačidiel hlasitosti</string>
   <!-- Torch Power button gestures -->
   <string name="torch_power_button_gesture_title">Baterka pri vypnutej obrazovke</string>
-  <string name="torch_power_button_gesture_none">Vypnuté</string>
-  <string name="torch_power_button_gesture_dt">Dvojité poklepanie</string>
+  <string name="torch_power_button_gesture_none">Vypnutá</string>
+  <string name="torch_power_button_gesture_dt">Dvojité kliknutie</string>
   <string name="torch_power_button_gesture_lp">Dlhé stlačenie</string>
   <!-- Button touch -->
   <string name="button_backlight_on_touch_only_title">Podsvietenie tlačidiel pri dotyku</string>
@@ -68,20 +68,20 @@
   <!-- Enable keys backlight-->
   <string name="button_brightness_title">Podsvietenie</string>
   <!-- Enable keys backlight-->
-  <string name="button_brightness_sw_title">Povoliť podsvietenie</string>
+  <string name="button_brightness_sw_title">Zapnúť podsvietenie</string>
   <!-- Navbar tuner -->
   <string name="navbar_tuner_title">Správa navigačného panela</string>
   <!-- Notification light dialogs -->
-  <string name="ok">Okej</string>
+  <string name="ok">V poriadku</string>
   <string name="reset">Resetovať</string>
   <string name="advanced">Rozšírené</string>
   <string name="profiles_add">Pridať...</string>
   <string name="edit_light_settings">Upraviť nastavenia LED diódy</string>
   <string name="pulse_speed_title">Dĺžka impulzu a rýchlosť</string>
-  <string name="default_time">Normala</string>
-  <string name="custom_time">Vlastná</string>
-  <string name="dialog_choose_app">Vybrať aplikácie</string>
-  <string name="dialog_delete_title">Zmazať</string>
+  <string name="default_time">Normálny</string>
+  <string name="custom_time">Vlastný</string>
+  <string name="dialog_choose_app">Vybrať aplikáciu</string>
+  <string name="dialog_delete_title">Vymazať</string>
   <string name="dialog_delete_message">Odstrániť vybranú položku?</string>
   <!-- Values for the notification light pulse spinners -->
   <string name="pulse_length_always_on">Vždy zapnuté</string>
@@ -97,26 +97,26 @@
   <string name="pulse_speed_very_slow">Veľmi pomaly</string>
   <!-- Lights settings screen, notification light settings -->
   <string name="notification_light_title">LED signalizácia</string>
-  <string name="notification_light_title_summary">Povoliť pulzujúce oznámenie LED</string>
+  <string name="notification_light_title_summary">Povoliť blikanie LED</string>
   <string name="notification_light_general_title">Hlavné</string>
   <string name="notification_light_applist_title">Aplikácie</string>
   <string name="notification_light_phonelist_title">Telefón</string>
   <string name="notification_light_use_custom">Použiť vlastné hodnoty</string>
-  <string name="notification_light_use_custom_summary">Umožňuje nastaviť farby oznámenia podľa aplikácie</string>
+  <string name="notification_light_use_custom_summary">Umožňuje nastaviť farby blikania LED podľa aplikácie</string>
   <string name="notification_light_default_value">Predvolené</string>
   <string name="notification_light_missed_call_title">Zmeškaný hovor</string>
   <string name="notification_light_voicemail_title">Hlasová pošta</string>
   <string name="notification_light_screen_on">LED aj pri zapnutej obrazovke</string>
-  <string name="notification_light_zen_mode">Svetelná signalizácia v režimu „Nerušiť“</string>
+  <string name="notification_light_zen_mode">LED aj v režime „Nerušiť“</string>
   <string name="notification_light_use_multiple_leds">Viaceré LED</string>
   <!-- Notification light settings -->
   <string name="leds_category_title">Možnosti LED</string>
-  <string name="battery_light_settings">Svetelná signalizácia batérie</string>
+  <string name="battery_light_settings">LED signalizácia batérie</string>
   <string name="led_notification_title">Nastavenia LED</string>
   <string name="led_notification_text">LED svetlá zapnuté v nastaveniach</string>
   <string name="notification_light_no_apps_summary">Ak chcete pridať ovládanie podľa aplikácie, stlačte \'%1$s\' a použite tlačidlo \'\u002b\' v ponuke</string>
   <!-- Battery light settings  -->
-  <string name="batterylight_title">Nastavenie LED indikátora batérie</string>
+  <string name="batterylight_title">Nastavenie LED indikácie batérie</string>
   <string name="battery_light_enable">Zapnúť</string>
   <string name="battery_low_pulse_title">Blikať pri slabej batérii</string>
   <string name="battery_light_only_full_charge_title">Rozsvietiť pri úplnom nabití</string>
@@ -129,15 +129,15 @@
   <string name="led_color_red">Červená</string>
   <string name="led_color_blue">Modrá</string>
   <!-- Power Menu -->
-  <string name="powermenu_manage">Správa napájania</string>
-  <string name="powermenu_reboot_title">Reštart</string>
+  <string name="powermenu_manage">Správa menu tl. Napájanie</string>
+  <string name="powermenu_reboot_title">Reštartovať</string>
   <string name="powermenu_advanced_reboot_title">Rozšírený reštart</string>
-  <string name="powermenu_advanced_reboot_summary">Zapnutie rozšíreného reštartu pre reštartovanie do recovery, bootloader, reštart systém alebo horúci reštart</string>
+  <string name="powermenu_advanced_reboot_summary">Umožňuje rozšírenú ponuku reštartu do Recovery, Bootloadera, reštart SystemUI alebo spustenie Hot reštartu</string>
   <string name="powermenu_screenshot_title">Snímka obrazovky</string>
-  <string name="powermenu_airplane_title">Režim lietadlo</string>
-  <string name="powermenu_category_other">Ostatné</string>
-  <string name="powermenu_lockscreen_title">Viditeľnosť na zamknutej obrazovke</string>
-  <string name="powermenu_lockscreen_summary">Zapnúť možnosť zobraziť napájacie menu keď je zamknutá obrazovka</string>
+  <string name="powermenu_airplane_title">Režim v lietadle</string>
+  <string name="powermenu_category_other">Iné</string>
+  <string name="powermenu_lockscreen_title">Viditeľnosť na obrazovke uzamknutia</string>
+  <string name="powermenu_lockscreen_summary">Povolí zobrazovať a používať menu tlačidla Napájanie aj na obrazovke uzamknutia</string>
   <!-- HW Keys customization -->
   <string name="picker_activities">Aktivity</string>
   <string name="select_custom_app_title">Vybrať vlastnú aplikáciu</string>
@@ -165,4 +165,5 @@
   <string name="hardware_keys_utouch_right_swipe">Potiahnutie doprava</string>
   <string name="hardware_keys_utouch_single_tap">Kliknutie</string>
   <string name="hardware_keys_utouch_long_tap">Dlhé stlačenie</string>
+  <!-- Ambient music -->
 </resources>

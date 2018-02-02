@@ -165,4 +165,5 @@
   <string name="hardware_keys_utouch_right_swipe">Nach rechts wischen</string>
   <string name="hardware_keys_utouch_single_tap">Tippen</string>
   <string name="hardware_keys_utouch_long_tap">Lange drücken</string>
+  <!-- Ambient music -->
 </resources>

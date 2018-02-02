@@ -165,4 +165,12 @@
   <string name="hardware_keys_utouch_right_swipe">दाहिने फेरना</string>
   <string name="hardware_keys_utouch_single_tap">टेप करें</string>
   <string name="hardware_keys_utouch_long_tap">लंबा दबाएँ</string>
+  <!-- Ambient music -->
+  <string name="force_ambient_for_media_pref_title">जो गाना आप सुन रहे है</string>
+  <string name="force_ambient_for_media_pref_summary">वर्तमान संगीत की जानकारी दिखाए</string>
+  <string name="force_ambient_for_media_title">लेआउट का चयन करें</string>
+  <string name="force_ambient_for_media_off">निर्योग्य</string>
+  <string name="force_ambient_for_media_on">सामान्य</string>
+  <string name="force_ambient_for_media_on_forced">सामान्य (जबरदस्ती)</string>
+  <string name="force_ambient_for_media_on_forced_clean">कम से कम (जबरदस्ती)</string>
 </resources>

@@ -132,4 +132,5 @@
   <string name="hardware_keys_utouch_right_swipe">Balayage vers la droite</string>
   <string name="hardware_keys_utouch_single_tap">Appui</string>
   <string name="hardware_keys_utouch_long_tap">Appui long</string>
+  <!-- Ambient music -->
 </resources>

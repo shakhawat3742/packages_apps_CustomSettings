@@ -121,4 +121,5 @@
   <string name="hardware_keys_utouch_right_swipe">જમણી બાજુ સ્વાઇપ કરો</string>
   <string name="hardware_keys_utouch_single_tap">ટેપ</string>
   <string name="hardware_keys_utouch_long_tap">લાંબું ટેપ</string>
+  <!-- Ambient music -->
 </resources>

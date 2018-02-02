@@ -165,4 +165,5 @@
   <string name="hardware_keys_utouch_right_swipe">Свайп вправо</string>
   <string name="hardware_keys_utouch_single_tap">Дотик</string>
   <string name="hardware_keys_utouch_long_tap">Довгий дотик</string>
+  <!-- Ambient music -->
 </resources>

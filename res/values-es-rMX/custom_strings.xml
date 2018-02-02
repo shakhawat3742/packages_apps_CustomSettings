@@ -165,4 +165,5 @@
   <string name="hardware_keys_utouch_right_swipe">Deslizar hacia la derecha</string>
   <string name="hardware_keys_utouch_single_tap">Pulsar</string>
   <string name="hardware_keys_utouch_long_tap">Pulsacion larga</string>
+  <!-- Ambient music -->
 </resources>

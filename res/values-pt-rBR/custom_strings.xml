@@ -165,4 +165,13 @@
   <string name="hardware_keys_utouch_right_swipe">Deslizar para a direita</string>
   <string name="hardware_keys_utouch_single_tap">Toque</string>
   <string name="hardware_keys_utouch_long_tap">Toque longo</string>
+  <!-- Ambient music -->
+  <string name="force_ambient_for_media_pref_title">Tocando agora</string>
+  <string name="force_ambient_for_media_pref_summary">Mostrar informações da música atual</string>
+  <string name="ambient_ticker_footer">Este recurso possibilita mostrar as informações atuais da música na tela de bloqueio.\n\nVocê pode escolher entre o layout normal e o minimalista. Embora este recurso use o layout da exibição de ambiente, não é necessário que essa opção esteja ativada (você poderá usar o modo forçado).\n\nO layout normal inclui o relógio, a data e a informação da música.\n\nO layout minimalista inclui apenas a informação da música no centro da tela.</string>
+  <string name="force_ambient_for_media_title">Selecionar layout</string>
+  <string name="force_ambient_for_media_off">Desativado</string>
+  <string name="force_ambient_for_media_on">Normal</string>
+  <string name="force_ambient_for_media_on_forced">Normal (forçado)</string>
+  <string name="force_ambient_for_media_on_forced_clean">Minimalista (forçado)</string>
 </resources>

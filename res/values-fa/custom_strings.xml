@@ -17,28 +17,161 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Color Picker -->
+  <string name="dialog_color_picker">انتخابگر رنگ</string>
+  <string name="press_color_to_apply">برای اعمال، رنگ زیر را فشار دهید</string>
+  <string name="arrow_right">→</string>
+  <string name="arrow_down">↓</string>
+  <string name="hex">کد هگزادسیمال:</string>
+  <string name="hex_hint">#ff000000</string>
+  <string name="set">برگزیدن</string>
+  <string name="color_default">پیش فرض</string>
   <!-- Buttons -->
+  <string name="button_settings">دکمه ها</string>
   <!-- Volume category -->
+  <string name="volume_category">دکمه های صدا</string>
   <!-- Power category -->
+  <string name="power_category">پاور</string>
   <!-- Volume category -->
+  <string name="navbar_category">نوار پیمایش</string>
   <!-- Volume button orientation based on current rotation -->
+  <string name="swap_volume_buttons_title">تغییر جهت دادن غلتانک میزان صدا</string>
+  <string name="swap_volume_buttons_summary">وفق دادن جهت غلتانک صدا بر اساس چرخش فعل صفحه</string>
   <!-- Volume key controls media stream -->
+  <string name="volume_keys_control_media_stream_title">کلیدهای صدا، میزان صدای رسانه را کنترل می کنند</string>
+  <string name="volume_keys_control_media_stream_summary">اجبار کردن دکمه های صدا به کنترل پخش رسانه</string>
   <!-- Volume rocker music control -->
+  <string name="volume_rocker_music_controls_title">کنترل پخش</string>
+  <string name="volume_rocker_music_controls_summary">زمان خاموشی صفحه نمایش، با نگه داشتن کلید صدا موسیقی را تغییر دهید</string>
   <!-- Volume rocker wake -->
+  <string name="volume_rocker_wake_title">بیدار شدن با دکمه های صدا</string>
+  <string name="volume_rocker_wake_summary">فشار دادن کلید های صدا، صفحه نمایش را روشن خواهد کرد</string>
   <!-- The volume key answer -->
+  <string name="volume_answer_call_title">پاسخ دادن با دکمه های صدا</string>
+  <string name="volume_answer_call_summary">پاسخگویی به تماس با فشردن کلید های صدا</string>
   <!-- Torch Power button gestures -->
+  <string name="torch_power_button_gesture_title">چراغ قوه زمانی که صفحه خاموش است</string>
+  <string name="torch_power_button_gesture_none">غیرفعال</string>
+  <string name="torch_power_button_gesture_dt">دو ضربه</string>
+  <string name="torch_power_button_gesture_lp">نگه داشتن</string>
   <!-- Button touch -->
+  <string name="button_backlight_on_touch_only_title">لمس دکمه</string>
+  <string name="button_backlight_on_touch_only_summary">فعال سازی نور پس زمینه ی مهلت دار فقط هنگام لمس کردن دکمه</string>
   <!-- Buttons backlight timeout -->
+  <string name="backlight_timeout_title">مهلت نور پس زمینه ی دکمه ها</string>
+  <string name="backlight_timeout_on">همیشه فعال</string>
+  <string name="backlight_timeout_3s">۳ ثانیه</string>
+  <string name="backlight_timeout_default">۵ ثانیه (پیش فرض)</string>
+  <string name="backlight_timeout_10s">۱۰ ثانیه</string>
+  <string name="backlight_timeout_15s">۱۵ ثانیه</string>
+  <string name="backlight_timeout_20s">۲۰ ثانیه</string>
+  <string name="backlight_timeout_30s">۳۰ ثانیه</string>
   <!-- Enable keys backlight-->
+  <string name="button_brightness_title">نور پس زمینه</string>
   <!-- Enable keys backlight-->
+  <string name="button_brightness_sw_title">فعال سازی نور پس زمینه</string>
   <!-- Navbar tuner -->
+  <string name="navbar_tuner_title">مدیریت نوار پیمایش</string>
   <!-- Notification light dialogs -->
+  <string name="ok">باشه</string>
+  <string name="reset">تنظیم مجدد</string>
+  <string name="advanced">پیشرفته</string>
+  <string name="profiles_add">افزودن...</string>
+  <string name="edit_light_settings">ویرایش تنظیمات نور</string>
+  <string name="pulse_speed_title">طول و سرعت چشمک زدن</string>
+  <string name="default_time">عادی</string>
+  <string name="custom_time">سفارشی</string>
+  <string name="dialog_choose_app">برنامه را انتخاب کنید</string>
+  <string name="dialog_delete_title">حذف کردن</string>
+  <string name="dialog_delete_message">مورد انتخاب شده حذف شود؟</string>
   <!-- Values for the notification light pulse spinners -->
+  <string name="pulse_length_always_on">همیشه روشن</string>
+  <string name="pulse_length_very_short">بسیار کوتاه</string>
+  <string name="pulse_length_short">کوتاه</string>
+  <string name="pulse_length_normal">عادی</string>
+  <string name="pulse_length_long">طولانی</string>
+  <string name="pulse_length_very_long">بسیار طولانی</string>
+  <string name="pulse_speed_very_fast">بسیار سریع</string>
+  <string name="pulse_speed_fast">سریع</string>
+  <string name="pulse_speed_normal">عادی</string>
+  <string name="pulse_speed_slow">آهسته</string>
+  <string name="pulse_speed_very_slow">بسیار آهسته</string>
   <!-- Lights settings screen, notification light settings -->
+  <string name="notification_light_title">نور اطلاعیه‌ها</string>
+  <string name="notification_light_title_summary">فعال سازی LED چشمک زن اطلاعیه ها</string>
+  <string name="notification_light_general_title">عمومی</string>
+  <string name="notification_light_applist_title">برنامه ها</string>
+  <string name="notification_light_phonelist_title">تلفن</string>
+  <string name="notification_light_use_custom">استفاده از مقادیر سفارشی</string>
+  <string name="notification_light_use_custom_summary">برای تنظیم رنگ اطلاعیه ی هر برنامه فعال کنید</string>
+  <string name="notification_light_default_value">پیش فرض</string>
+  <string name="notification_light_missed_call_title">تماس بی پاسخ</string>
+  <string name="notification_light_voicemail_title">نامهٔ صوتی</string>
+  <string name="notification_light_screen_on">چراغ هنگام روشن بودن صفحه</string>
+  <string name="notification_light_zen_mode">فعال بودن چراغ اعلان در حالت مزاحم نشوید</string>
+  <string name="notification_light_use_multiple_leds">چند LED</string>
   <!-- Notification light settings -->
+  <string name="leds_category_title">گزینه های LED</string>
+  <string name="battery_light_settings">چراغ باتری</string>
+  <string name="led_notification_title">تنظیمات نور</string>
+  <string name="led_notification_text">چراغ LED فعال شده به وسیله ی تنظیمات</string>
+  <string name="notification_light_no_apps_summary">برای اضافه کردن کنترل هر برنامه، \'%1$s\' را فعال کنید و \'\u002b\' را از نوار منو انتخاب کنید</string>
   <!-- Battery light settings  -->
+  <string name="batterylight_title">تنظیمات LED باتری</string>
+  <string name="battery_light_enable">فعال سازی</string>
+  <string name="battery_low_pulse_title">چشمک زدن هنگام کم بودن باتری</string>
+  <string name="battery_light_only_full_charge_title">تنها هنگامی که کاملا شارژ شد روشن شود</string>
+  <string name="battery_light_list_title">رنگ ها</string>
+  <string name="battery_light_low_color_title">باتری کم</string>
+  <string name="battery_light_medium_color_title">ﺩﺭ ﺣﺎﻝ ﺷﺎﺭﮊ</string>
+  <string name="battery_light_full_color_title">شارژ شده (90%)</string>
+  <string name="battery_light_really_full_color_title">شارژ شده (100%)</string>
+  <string name="led_color_green">سبز</string>
+  <string name="led_color_red">قرمز</string>
+  <string name="led_color_blue">آبی</string>
   <!-- Power Menu -->
+  <string name="powermenu_manage">مدیریت منوی پاور</string>
+  <string name="powermenu_reboot_title">راه اندازی مجدد</string>
+  <string name="powermenu_advanced_reboot_title">راه اندازی مجدد پیشرفته</string>
+  <string name="powermenu_advanced_reboot_summary">تنظیمات پیشرفته ی راه اندازی مجدد برای گزینه های ریبوت به ریکاوری، بوت لودر، راه اندازی مجدد systemui،‌ یا راه اندازی مجدد کامل را فعال می کند</string>
+  <string name="powermenu_screenshot_title">عکس گرفتن از صفحه</string>
+  <string name="powermenu_airplane_title">حالت پرواز</string>
+  <string name="powermenu_category_other">دیگر</string>
+  <string name="powermenu_lockscreen_title">قابل دید بودن در قفل صفحه</string>
+  <string name="powermenu_lockscreen_summary">فعال سازی توانایی نمایش و استفاده از منوی پاور هنگام قفل بودن صفحه</string>
   <!-- HW Keys customization -->
+  <string name="picker_activities">فعالیت ها</string>
+  <string name="select_custom_app_title">انتخاب برنامه ی سفارشی</string>
+  <string name="select_custom_activity_title">انتخاب فعالیت سفارشی</string>
+  <string name="profile_applist_title">برنامه های کاربردی</string>
+  <string name="choose_action_title">انتخاب یک عمل</string>
+  <string name="action_entry_default_action">تنظیمات پیش فرض</string>
+  <string name="action_entry_select_app">انتخاب برنامه</string>
+  <string name="action_entry_custom_action">انتخاب عمل سفارشی</string>
+  <string name="hardware_keys_home_key_title">دکمه ی خانه</string>
+  <string name="hardware_keys_menu_key_title">دکمه ی منو</string>
+  <string name="hardware_keys_assist_key_title">دکمه ی جستجو</string>
+  <string name="hardware_keys_appswitch_key_title">دکمه ی برنامه های در حال اجرا</string>
+  <string name="hardware_keys_back_key_title">دکمه ی بازگشت</string>
+  <string name="hardware_keys_double_tap_summary">تنظیم عملکرد دو ضربه</string>
+  <string name="hardware_keys_single_tap_summary">تنظیم عملکرد یک ضربه</string>
+  <string name="hardware_keys_long_press_summary">تنظیم عملکرد نگه داشتن دکمه</string>
+  <string name="hardware_keys_single_tap_title">عملکرد یک ضربه</string>
+  <string name="hardware_keys_long_press_title">عملکرد نگه داشتن دکمه</string>
+  <string name="hardware_keys_double_tap_title">عملکرد دو ضربه</string>
+  <string name="hardware_keys_category">کلید های سخت افزاری</string>
+  <string name="hardware_keys_enable_title">فعال سازی</string>
   <!-- UTouch -->
+  <string name="hardware_keys_utouch_left_swipe">کشیدن به چپ</string>
+  <string name="hardware_keys_utouch_right_swipe">کشیدن به راست</string>
+  <string name="hardware_keys_utouch_single_tap">ضربه ی آرام</string>
+  <string name="hardware_keys_utouch_long_tap">ضربه ی طولانی</string>
   <!-- Ambient music -->
+  <string name="force_ambient_for_media_pref_title">درحال پخش</string>
+  <string name="force_ambient_for_media_pref_summary">نمایش اطلاعات موسیقی فعلی</string>
+  <string name="ambient_ticker_footer">این ویژگی اجازه می دهد تا اطلاعات موسیقی فعلی بدون در نظر گرفتن فعال بودن نمایشگر محیط، روی قفل صفحه نمایش داده شود.\n\nشما می توانید از بین دو چیدمان عادی و ساده یکی را انتخاب کنید. با اینکه این ویژگی از نمایشگر محیط استفاده می کند اما به آن وابسته نیست. این ویژگی میتواند بدون فعال بودن نمایشگر محیطی و با انتخاب گزینه های (اجباری) فعال شود.\n\nنمای عادی شامل ساعت قفل صفحه، تاریخ و اطلاعات موسیقی است.\n\nنمای ساده فقط شامل اطلاعات موسیقی در وسط صفحه است.</string>
+  <string name="force_ambient_for_media_title">انتخاب چیدمان</string>
+  <string name="force_ambient_for_media_off">غیر فعال</string>
+  <string name="force_ambient_for_media_on">عادی</string>
+  <string name="force_ambient_for_media_on_forced">عادی (اجباری)</string>
+  <string name="force_ambient_for_media_on_forced_clean">ساده (اجباری)</string>
 </resources>

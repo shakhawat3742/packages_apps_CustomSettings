@@ -166,4 +166,6 @@
   <string name="hardware_keys_utouch_single_tap">Tippen</string>
   <string name="hardware_keys_utouch_long_tap">Lange drücken</string>
   <!-- Ambient music -->
+  <string name="force_ambient_for_media_pref_title">Aktuelle Wiedergabe</string>
+  <string name="force_ambient_for_media_pref_summary">Aktuelle Musik-Track-Informationen anzeigen</string>
 </resources>

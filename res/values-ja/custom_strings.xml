@@ -17,11 +17,24 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Color Picker -->
+  <string name="dialog_color_picker">色の選択</string>
+  <string name="press_color_to_apply">色を選択して適用</string>
+  <string name="arrow_right">→</string>
+  <string name="arrow_down">↓</string>
+  <string name="hex">16進数:</string>
+  <string name="hex_hint">#ff000000</string>
+  <string name="set">適用</string>
+  <string name="color_default">デフォルト</string>
   <!-- Buttons -->
+  <string name="button_settings">ボタン</string>
   <!-- Volume category -->
+  <string name="volume_category">音量ボタンによるウェイクロック解除</string>
   <!-- Power category -->
+  <string name="power_category">電源</string>
   <!-- Volume category -->
+  <string name="navbar_category">ナビゲーションバー</string>
   <!-- Volume button orientation based on current rotation -->
+  <string name="swap_volume_buttons_title">画面回転時にボリュームボタンの大小を入れ替える</string>
   <!-- Volume key controls media stream -->
   <!-- Volume rocker music control -->
   <!-- Volume rocker wake -->

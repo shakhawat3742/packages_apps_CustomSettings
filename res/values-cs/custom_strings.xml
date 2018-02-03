@@ -166,4 +166,12 @@
   <string name="hardware_keys_utouch_single_tap">Klepnutí</string>
   <string name="hardware_keys_utouch_long_tap">Dlouhý stisk</string>
   <!-- Ambient music -->
+  <string name="force_ambient_for_media_pref_title">Právě hraje</string>
+  <string name="force_ambient_for_media_pref_summary">Zobrazit aktuální informace o hudební skladbě</string>
+  <string name="ambient_ticker_footer">Tato funkce umožňuje zobrazit aktuální informace o hudebních skladbách na zamykací obrazovce při zapnutém nebo vypnutém Ambientním displeji.\n\nMůžete si vybrat ze dvou zobrazení, normálního a minimálního. I když tato funkce využívá výhody Ambientního displeje, není na něm závislá. Může být spuštěna i bez zapnutí Ambientního displeje pomocí (vynucených) voleb.\n\nNormální zobrazení obsahuje hodiny, datum a informaci o hudební skladbě na zamykací obrazovce.\n\nMinimální zobrazení obsahuje pouze informaci o hudební skladbě uprostřed obrazovky.</string>
+  <string name="force_ambient_for_media_title">Vybrat rozložení</string>
+  <string name="force_ambient_for_media_off">Vypnuto</string>
+  <string name="force_ambient_for_media_on">Normální</string>
+  <string name="force_ambient_for_media_on_forced">Normální (vynucené)</string>
+  <string name="force_ambient_for_media_on_forced_clean">Minimální (vynucené)</string>
 </resources>

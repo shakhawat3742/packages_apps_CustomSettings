@@ -166,4 +166,12 @@
   <string name="hardware_keys_utouch_single_tap">Tekan</string>
   <string name="hardware_keys_utouch_long_tap">Tekan yang lama</string>
   <!-- Ambient music -->
+  <string name="force_ambient_for_media_pref_title">Sedang diputar</string>
+  <string name="force_ambient_for_media_pref_summary">Tampilkan informasi trek musik saat ini</string>
+  <string name="ambient_ticker_footer">Fitur ini memungkinkan kemampuan untuk menunjukkan musik saat ini informasi trek pada layar kunci dengan atau tanpa tampilan Ambien diaktifkan.\n\n Anda dapat memilih dari dua tata letak, normal dan minimal. Fitur ini mengambil keuntungan dari tampilan ambient, tidak tergantung di atasnya. Itu dapat disebabkan tanpa mengaktifkan tampilan ambien dengan menggunakan opsi tampilan.\n\nNormal (paksa) termasuk layar kunci jam, tanggal dan informasi musik.\n\nMinimal pemandangan hanya memuat informasi musik di tengah layar.</string>
+  <string name="force_ambient_for_media_title">Pilih tata letak</string>
+  <string name="force_ambient_for_media_off">Nonaktif</string>
+  <string name="force_ambient_for_media_on">Normal</string>
+  <string name="force_ambient_for_media_on_forced">Normal (paksa)</string>
+  <string name="force_ambient_for_media_on_forced_clean">Minimal (paksa)</string>
 </resources>

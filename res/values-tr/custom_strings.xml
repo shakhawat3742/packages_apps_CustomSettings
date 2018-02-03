@@ -168,7 +168,7 @@
   <!-- Ambient music -->
   <string name="force_ambient_for_media_pref_title">Şimdi oynatılıyor</string>
   <string name="force_ambient_for_media_pref_summary">Geçerli müzik parçası bilgisini göster</string>
-  <string name="ambient_ticker_footer">Bu özellik, Ambient ekranı etkinleştirilmiş veya kilit ekrandaki geçerli müzik parçası bilgilerini gösterebilme olanağı sağlar.\n\nNormal ve minimum iki düzen arasından seçim yapabilirsiniz. Bu özellik ortam görüntüsünü kullanırken, buna bağlı değildir. (Zorla) seçeneklerini kullanarak ortam görüntüsünü etkinleştirmeden tetiklenebilir.\n\nNormal görünüme, ekran kilidini saati, tarihi ve saati içerir.\n\nMininal görüntü, ekranın ortasındaki simgeyi içerir.</string>
+  <string name="ambient_ticker_footer">Bu özellik, Ortam ekranı etkinleştirilmiş veya kilit ekranı üzerinde geçerli müzik parçası bilgisini gösterebilme olanağı sağlar.\n\nNormal ve minimum iki düzen arasından seçim yapabilirsiniz. Bu özellik ortam ekranından yararlanırken, bu buna bağımlı değildir. (Zorla) seçeneklerini kullanarak ortam ekranı etkinleştirmeden tetiklenebilir.\n\nNormal görünüm, kilit ekranı saati, tarihi ve müzik bilgilerini içerir.\n\nMinimal görünüm, ekranın ortasında sadece müzik bilgisini içerir.</string>
   <string name="force_ambient_for_media_title">Düzen seç</string>
   <string name="force_ambient_for_media_off">Devre dışı</string>
   <string name="force_ambient_for_media_on">Normal</string>

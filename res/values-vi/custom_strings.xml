@@ -166,4 +166,12 @@
   <string name="hardware_keys_utouch_single_tap">Chạm</string>
   <string name="hardware_keys_utouch_long_tap">Chạm giữ</string>
   <!-- Ambient music -->
+  <string name="force_ambient_for_media_pref_title">Đang phát</string>
+  <string name="force_ambient_for_media_pref_summary">Hiển thị thông tin bài hát hiện tại</string>
+  <string name="ambient_ticker_footer">Tính năng này cho phép hiển thị thông tin ca khúc nhạc hiện tại trên màn hình khóa có bật hoặc không bật chế độ hiển thị môi trường xung quanh.\n\nBạn có thể chọn từ hai bố cục, bình thường và tối thiểu. Mặc dù tính năng này tận dụng màn hình hiển thị xung quanh nhưng nó không phụ thuộc vào nó. Có thể được kích hoạt mà không bật chế độ hiển thị xung quanh bằng cách sử dụng các tùy chọn (bắt buộc).\n\nChế độ xem thông thường bao gồm đồng hồ, ngày giờ và thông tin âm nhạc.\n\nChế độ xem nhỏ nhất chỉ bao gồm thông tin nhạc ở giữa màn hình.</string>
+  <string name="force_ambient_for_media_title">Chọn bố cục</string>
+  <string name="force_ambient_for_media_off">Vô hiệu hóa</string>
+  <string name="force_ambient_for_media_on">Bình thường</string>
+  <string name="force_ambient_for_media_on_forced">Bình thường (bắt buộc)</string>
+  <string name="force_ambient_for_media_on_forced_clean">Tối thiểu (bắt buộc)</string>
 </resources>

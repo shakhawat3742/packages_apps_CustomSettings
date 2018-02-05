@@ -161,4 +161,10 @@
   <string name="hardware_keys_utouch_single_tap">Tik</string>
   <string name="hardware_keys_utouch_long_tap">Lang aanraken</string>
   <!-- Ambient music -->
+  <string name="force_ambient_for_media_pref_title">Nu aan het afspelen</string>
+  <string name="force_ambient_for_media_title">Selecteer lay-out</string>
+  <string name="force_ambient_for_media_off">Uitgeschakeld</string>
+  <string name="force_ambient_for_media_on">Normaal</string>
+  <string name="force_ambient_for_media_on_forced">Normaal (geforceerd)</string>
+  <string name="force_ambient_for_media_on_forced_clean">Minimaal (geforceerd)</string>
 </resources>

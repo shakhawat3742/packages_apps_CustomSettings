@@ -34,14 +34,14 @@
   <!-- Volume category -->
   <string name="navbar_category">نوار پیمایش</string>
   <!-- Volume button orientation based on current rotation -->
-  <string name="swap_volume_buttons_title">تغییر جهت دادن غلتانک میزان صدا</string>
-  <string name="swap_volume_buttons_summary">وفق دادن جهت غلتانک صدا بر اساس چرخش فعل صفحه</string>
+  <string name="swap_volume_buttons_title">جا به جا کردن دکمه های صدا</string>
+  <string name="swap_volume_buttons_summary">تغییر جهت دکمه های صدا بر اساس چرخش صفحه</string>
   <!-- Volume key controls media stream -->
-  <string name="volume_keys_control_media_stream_title">کلیدهای صدا، میزان صدای رسانه را کنترل می کنند</string>
+  <string name="volume_keys_control_media_stream_title">کلیدهای صدا میزان صدای رسانه را کنترل می کنند</string>
   <string name="volume_keys_control_media_stream_summary">اجبار کردن دکمه های صدا به کنترل پخش رسانه</string>
   <!-- Volume rocker music control -->
   <string name="volume_rocker_music_controls_title">کنترل پخش</string>
-  <string name="volume_rocker_music_controls_summary">زمان خاموشی صفحه نمایش، با نگه داشتن کلید صدا موسیقی را تغییر دهید</string>
+  <string name="volume_rocker_music_controls_summary">زمان خاموشی صفحه نمایش، با نگه داشتن کلید های صدا موسیقی را تغییر دهید</string>
   <!-- Volume rocker wake -->
   <string name="volume_rocker_wake_title">بیدار شدن با دکمه های صدا</string>
   <string name="volume_rocker_wake_summary">فشار دادن کلید های صدا، صفحه نمایش را روشن خواهد کرد</string>

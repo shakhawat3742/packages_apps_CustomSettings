@@ -40,8 +40,8 @@
   <string name="volume_keys_control_media_stream_title">Tombol volume mengontrol volume media</string>
   <string name="volume_keys_control_media_stream_summary">Paksa tombol volume untuk mengontrol media stream</string>
   <!-- Volume rocker music control -->
-  <string name="volume_rocker_music_controls_title">Kontrol pemutar</string>
-  <string name="volume_rocker_music_controls_summary">Ketika layar dimatikan, menekan dan menahan tombol volume akan mencari trek musik</string>
+  <string name="volume_rocker_music_controls_title">Kontrol pemutaran</string>
+  <string name="volume_rocker_music_controls_summary">Ketika layar dimatikan, menekan lama tombol volume akan mencari trek musik</string>
   <!-- Volume rocker wake -->
   <string name="volume_rocker_wake_title">Bangun volume rocker</string>
   <string name="volume_rocker_wake_summary">Menekan tombol volume akan membangunkan perangkat Anda</string>
@@ -51,7 +51,7 @@
   <!-- Torch Power button gestures -->
   <string name="torch_power_button_gesture_title">Senter ketika layar mati</string>
   <string name="torch_power_button_gesture_none">Dinonaktifkan</string>
-  <string name="torch_power_button_gesture_dt">Tekan dua kali</string>
+  <string name="torch_power_button_gesture_dt">Ketuk dua kali</string>
   <string name="torch_power_button_gesture_lp">Tekan lama</string>
   <!-- Button touch -->
   <string name="button_backlight_on_touch_only_title">Tombol sentuh</string>
@@ -168,7 +168,7 @@
   <!-- Ambient music -->
   <string name="force_ambient_for_media_pref_title">Sedang diputar</string>
   <string name="force_ambient_for_media_pref_summary">Tampilkan informasi trek musik saat ini</string>
-  <string name="ambient_ticker_footer">Fitur ini memungkinkan kemampuan untuk menunjukkan musik saat ini informasi trek pada layar kunci dengan atau tanpa tampilan Ambien diaktifkan.\n\n Anda dapat memilih dari dua tata letak, normal dan minimal. Fitur ini mengambil keuntungan dari tampilan ambient, tidak tergantung di atasnya. Itu dapat disebabkan tanpa mengaktifkan tampilan ambien dengan menggunakan opsi tampilan.\n\nNormal (paksa) termasuk layar kunci jam, tanggal dan informasi musik.\n\nMinimal pemandangan hanya memuat informasi musik di tengah layar.</string>
+  <string name="ambient_ticker_footer">Fitur ini memungkinkan kemampuan untuk menunjukkan musik saat ini informasi trek pada layar kunci dengan atau tanpa tampilan Ambien diaktifkan.\n\n Anda dapat memilih dari dua tata letak, normal dan minimal. Fitur ini mengambil keuntungan dari tampilan ambient, tidak tergantung di atasnya. Itu dapat disebabkan tanpa mengaktifkan tampilan ambien dengan menggunakan opsi tampilan.\n\nNormal (paksa) termasuk jam layar kunci, tanggal dan informasi musik.\n\nMinimal pemandangan hanya memuat informasi musik di tengah layar.</string>
   <string name="force_ambient_for_media_title">Pilih tata letak</string>
   <string name="force_ambient_for_media_off">Nonaktif</string>
   <string name="force_ambient_for_media_on">Normal</string>

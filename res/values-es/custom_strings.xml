@@ -166,4 +166,8 @@
   <string name="hardware_keys_utouch_single_tap">Pulsar</string>
   <string name="hardware_keys_utouch_long_tap">Mantener pulsado</string>
   <!-- Ambient music -->
+  <string name="force_ambient_for_media_pref_title">Reproduciéndose </string>
+  <string name="force_ambient_for_media_pref_summary">Mostrar información actual de la pista de música</string>
+  <string name="ambient_ticker_footer">Esta función permite mostrar la información de la pista de música actual en la pantalla de bloqueo con o sin la pantalla Ambiente habilitada.\n\nPuede seleccionar entre dos diseños, normal y mínimo. Si bien esta característica aprovecha la visualización ambiental, no depende de ella. Se puede activar sin tener activada la visualización ambiental mediante las opciones (forzadas).\n\nLa vista normal incluye el reloj de pantalla bloqueada, la fecha y la información de música. \n\nLa vista mínima incluye solo la información de música en el centro de la pantalla.</string>
+  <string name="force_ambient_for_media_on_forced">Normal (forzado)</string>
 </resources>

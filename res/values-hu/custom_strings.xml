@@ -45,7 +45,9 @@
   <string name="volume_rocker_wake_title">Hangerő gombra feléleszt</string>
   <string name="volume_rocker_wake_summary">A hangerő gombok megnyomására a készülék felébred</string>
   <!-- The volume key answer -->
+  <string name="volume_answer_call_summary">Hívásfogadás hangerőgombok lenyomásakor</string>
   <!-- Torch Power button gestures -->
+  <string name="torch_power_button_gesture_title">Zseblámpa, amikor a képernyő ki van kapcsolva</string>
   <string name="torch_power_button_gesture_none">Letiltva</string>
   <string name="torch_power_button_gesture_dt">Dupla érintés</string>
   <string name="torch_power_button_gesture_lp">Hosszan nyomás</string>
@@ -146,4 +148,7 @@
   <string name="hardware_keys_utouch_single_tap">Érintés</string>
   <string name="hardware_keys_utouch_long_tap">Hosszú érintés</string>
   <!-- Ambient music -->
+  <string name="force_ambient_for_media_on">Normál</string>
+  <string name="force_ambient_for_media_on_forced">Normál (erőltetett)</string>
+  <string name="force_ambient_for_media_on_forced_clean">Minimál (erőltetett)</string>
 </resources>

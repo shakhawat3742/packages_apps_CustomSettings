@@ -57,6 +57,7 @@
   <string name="button_backlight_on_touch_only_title">Knopaanraking</string>
   <string name="button_backlight_on_touch_only_summary">Inschakelen achtergrondverlichting met timeout als knop wordt aangeraakt</string>
   <!-- Buttons backlight timeout -->
+  <string name="backlight_timeout_title">Timeout achtergrondverlichting van de toetsen</string>
   <string name="backlight_timeout_on">Altijd ingeschakeld</string>
   <string name="backlight_timeout_3s">3 seconden</string>
   <string name="backlight_timeout_default">5 seconden (standaard)</string>
@@ -101,6 +102,7 @@
   <string name="notification_light_applist_title">Apps</string>
   <string name="notification_light_phonelist_title">Telefoon</string>
   <string name="notification_light_use_custom">Aangepaste waarden gebruiken</string>
+  <string name="notification_light_use_custom_summary">Toestaan om per app notificatiekleuren in te stellen</string>
   <string name="notification_light_default_value">Standaard</string>
   <string name="notification_light_missed_call_title">Gemiste oproep</string>
   <string name="notification_light_voicemail_title">Voicemail</string>
@@ -127,12 +129,15 @@
   <string name="led_color_red">Rood</string>
   <string name="led_color_blue">Blauw</string>
   <!-- Power Menu -->
+  <string name="powermenu_manage">Beheer aan/uit menu</string>
   <string name="powermenu_reboot_title">Herstarten</string>
   <string name="powermenu_advanced_reboot_title">Geavanceerd herstarten</string>
+  <string name="powermenu_advanced_reboot_summary">Schakelt het geavanceerde herstart menu in voor opties om te herstarten in recovery, bootloader, systemUI of een hot reboot uit te voeren</string>
   <string name="powermenu_screenshot_title">Schermafbeelding</string>
   <string name="powermenu_airplane_title">Vliegtuig modus</string>
   <string name="powermenu_category_other">Andere</string>
   <string name="powermenu_lockscreen_title">Vergrendelscherm zichtbaarheid</string>
+  <string name="powermenu_lockscreen_summary">Schakel te mogelijkheid in om aan/uit menu te tonen en gebruiken terwijl je telefoon vergrendeld is</string>
   <!-- HW Keys customization -->
   <string name="picker_activities">Activiteiten</string>
   <string name="select_custom_app_title">Aangepaste app kiezen</string>
@@ -162,6 +167,7 @@
   <string name="hardware_keys_utouch_long_tap">Lang aanraken</string>
   <!-- Ambient music -->
   <string name="force_ambient_for_media_pref_title">Nu aan het afspelen</string>
+  <string name="force_ambient_for_media_pref_summary">Toon informatie van het huidige muzieknummer</string>
   <string name="force_ambient_for_media_title">Selecteer lay-out</string>
   <string name="force_ambient_for_media_off">Uitgeschakeld</string>
   <string name="force_ambient_for_media_on">Normaal</string>

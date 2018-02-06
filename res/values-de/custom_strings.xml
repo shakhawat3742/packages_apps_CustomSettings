@@ -168,4 +168,10 @@
   <!-- Ambient music -->
   <string name="force_ambient_for_media_pref_title">Aktuelle Wiedergabe</string>
   <string name="force_ambient_for_media_pref_summary">Aktuelle Musik-Track-Informationen anzeigen</string>
+  <string name="ambient_ticker_footer">Diese Funktion erlaubt die Möglichkeit die aktuelle Musiktitelinformation auf dem Sperrbildschirm mit und ohne altivierte Ambient Anzeige.\n\nDu kannst zwei Layouts, normal und minimal wählen. Da diese Funktion den Vorteil der Ambient Anzeige nutzt, kommt es nicht darauf an. Es kann ohne aktivierte Ambient Anzeige ausgelöst werden bei Wahl der Force-Option.\n\nDie normale Ansicht beinhaltet die Sperrbildschirm-Uhr, das Datum und die Musiktitelanzeige.\n\nDie minimale Ansicht beinhaltet nur die Musiktitelanzeige in Zentrum des Bildschirms.</string>
+  <string name="force_ambient_for_media_title">Layout wählen</string>
+  <string name="force_ambient_for_media_off">Deaktiviert</string>
+  <string name="force_ambient_for_media_on">Normal</string>
+  <string name="force_ambient_for_media_on_forced">Normal (erzwungen)</string>
+  <string name="force_ambient_for_media_on_forced_clean">Minimal (erzwungen)</string>
 </resources>

@@ -57,7 +57,7 @@
   <string name="button_backlight_on_touch_only_title">Tocco del pulsante</string>
   <string name="button_backlight_on_touch_only_summary">Attiva la retroilluminazione solo al tocco del pulsante</string>
   <!-- Buttons backlight timeout -->
-  <string name="backlight_timeout_title">Timeout retroilluminazione pulsanti</string>
+  <string name="backlight_timeout_title">Tempo retroilluminazione pulsanti</string>
   <string name="backlight_timeout_on">Sempre abilitato</string>
   <string name="backlight_timeout_3s">3 sec</string>
   <string name="backlight_timeout_default">5 sec (predefinito)</string>
